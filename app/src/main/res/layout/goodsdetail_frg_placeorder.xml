@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    xmlns:stepper="http://schemas.android.com/apk/res-auto"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/goods_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/imageloading" />
+
+    <TextView
+        android:id="@+id/goods_price"
+        style="@style/gray03.24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/goods_photo"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/goods_photo"
+        android:text="¥0.00" />
+
+    <TextView
+        android:id="@+id/goods_oldprice"
+        style="@style/red.14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/goods_price"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/goods_price"
+        android:text="¥0.00"
+        android:visibility="gone" />
+
+    <com.clown.wyxc.components.TitleTextview
+        android:id="@+id/goods_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/goods_price"
+        android:layout_below="@id/goods_price"
+        custom:tt_text_front="库存：" />
+
+    <RelativeLayout
+        android:id="@+id/daojishi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/goods_price"
+        android:layout_below="@id/goods_stock"
+        android:gravity="center_vertical|left"
+        android:visibility="gone"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/black_28.14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="限时抢购" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_title">
+
+            <TextView
+                android:id="@+id/tv_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_circlestyle"
+                android:padding="5dp"
+                android:text="00"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/tv_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_circlestyle"
+                android:padding="5dp"
+                android:text="00"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/tv_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_circlestyle"
+                android:padding="5dp"
+                android:text="00"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_taggroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/goods_photo"
+        android:layout_below="@id/goods_photo"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/goods_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/goods_photo"
+        android:layout_below="@id/ll_taggroup"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_stpper"
+            style="@style/gray03.18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="数量：" />
+
+        <com.bigkoo.snappingstepper.SnappingStepper
+            android:id="@+id/stepper"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            stepper:min="1"
+            stepper:stepper_background="@color/gray_9f"
+            stepper:stepper_buttonBackground="@color/gray_9f"
+            stepper:stepper_contentBackground="@color/white"
+            stepper:stepper_leftButtonBackground="@color/gray_ce"
+            stepper:stepper_rightButtonBackground="@color/gray_ce" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/goods_count"
+        android:background="@color/gray_tab_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/btn_addcar"
+            style="@style/white.14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F98C50"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:text="加入购物车" />
+
+        <TextView
+            android:id="@+id/btn_buy"
+            style="@style/white.14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/btn_addcar"
+            android:background="#F9454D"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:text="立即购买" />
+    </RelativeLayout>
+</RelativeLayout>

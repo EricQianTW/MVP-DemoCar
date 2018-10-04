@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/logo"/>
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/icon_consume"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@id/iv_icon"
+                android:inputType="phone"
+                android:hint="请输入手机号"
+                />
+
+            <Button
+                android:id="@+id/bt_getIdentifying"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="获取验证码"
+                android:layout_below="@id/et_phone"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_corner_10_blue"
+                style="@style/white.14"
+                />
+
+            <EditText
+                android:id="@+id/et_identifying"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/icon_consume"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="textVisiblePassword"
+                android:layout_toLeftOf="@id/bt_getIdentifying"
+                android:layout_below="@id/et_phone"
+                android:hint="请输入验证码"
+                />
+
+            <EditText
+                android:id="@+id/et_passwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/icon_consume"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:inputType="textVisiblePassword"
+                android:layout_below="@id/et_identifying"
+                android:hint="请输入密码"
+                />
+
+            <Button
+                android:id="@+id/bt_login"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="提交"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_below="@id/et_passwd"
+                android:background="@drawable/shape_corner_blue2"/>
+
+            <TextView
+                android:id="@+id/tv_cutmothed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/gray_aa"
+                android:layout_marginTop="34dp"
+                android:padding="10dp"
+                android:layout_below="@id/bt_login"
+                android:layout_alignParentEnd="true"
+                android:textSize="14sp"
+                android:text="验证码登录"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

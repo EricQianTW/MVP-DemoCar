@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/store_name"
+            style="@style/black22.18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/icon_shop"
+            android:text="商店" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/store_name"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_99" />
+
+        <com.clown.wyxc.components.WrapContentHeightListView
+            android:id="@+id/rv_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line1"
+            android:dividerHeight="1dp" />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/rv_item"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_theme" />
+
+        <com.clown.wyxc.components.WrapContentHeightListView
+            android:id="@+id/fav_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line3"
+            android:layout_marginTop="10dp"
+            android:dividerHeight="1dp" />
+
+        <EditText
+            android:id="@+id/tv_liuyan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/rv_item"
+            android:layout_alignRight="@id/rv_item"
+            android:layout_below="@id/fav_item"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_theme"
+            android:hint="可填写留言"
+            android:minLines="3"
+            android:textColorHint="@color/gray_99" />
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tv_liuyan"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_theme" />
+
+
+        <com.clown.wyxc.components.TitleTextview
+            android:id="@+id/postvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/rv_item"
+            android:layout_below="@id/line4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            custom:tt_text_back="￥0.00"
+            custom:tt_text_backcolor="@color/gray_ff77"
+            custom:tt_text_backsize="@dimen/fontsize_18"
+            custom:tt_text_front="邮费："
+            custom:tt_text_frontcolor="@color/black_22"
+            custom:tt_text_frontsize="@dimen/fontsize_18" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/postvalue"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_theme" />
+
+        <com.clown.wyxc.components.TitleTextview
+            android:id="@+id/goodsnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/line2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            custom:tt_text_back="￥0.00"
+            custom:tt_text_backcolor="@color/gray_ff77"
+            custom:tt_text_backsize="@dimen/fontsize_18"
+            custom:tt_text_front="需支付："
+            custom:tt_text_frontcolor="@color/black_22"
+            custom:tt_text_frontsize="@dimen/fontsize_18" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

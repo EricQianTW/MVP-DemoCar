@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <com.clown.wyxc.components.ImageViewEquals
+        android:id="@+id/goods_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/goods_default"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/goods_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/goods_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/red.16"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="￥0.00"
+        />
+</LinearLayout>

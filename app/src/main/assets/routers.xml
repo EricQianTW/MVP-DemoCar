@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<routers>
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/html</path>
+        <activity>.x_html.HtmlActivity</activity>
+        <params>
+            <param>url</param>
+            <param>title</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/scan</path>
+        <activity>.zxing.activity.CaptureActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/phonecall</path>
+        <activity>.x_callphone.CallPhoneActivity</activity>
+        <params>
+            <param>phonenum</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/searchkey</path>
+        <activity></activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/navigation</path>
+        <activity>.x_map.activity.GaodeMapForSchemeActivity</activity>
+        <params>
+            <param>address</param>
+            <param>latitude</param>
+            <param>longitude</param>
+            <param>pointname</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/navigationsss</path>
+        <activity>.x_map.activity.ReGeocoderActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/login</path>
+        <activity>.x_login.LoginActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/storelist</path>
+        <activity>.MainActivity</activity>
+        <params>
+            <param>index</param>
+            <param>keyword</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/storedetail</path>
+        <activity>.x_companydetail.CompanyDetailActivity</activity>
+        <params>
+            <param>storeid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/storeservicelist</path>
+        <activity>.x_companyservices.CompanyServicesActivity</activity>
+        <params>
+            <param>storeid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/share</path>
+        <activity>.x_share.ShareActivity</activity>
+        <params>
+            <param>title</param>
+            <param>content</param>
+            <param>thumbimageurl</param>
+            <param>clickurl</param>
+            <param>type</param>
+            <param>detailimageurl</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/lostpaypassword</path>
+        <activity>.x_findpaypassword.FindPayPasswdActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/msglist</path>
+        <activity>.x_message.MessageActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/msglist</path>
+        <activity>.x_message.MessageActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/mycarsmanager</path>
+        <activity>.x_mycar.MyCarActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/carinfomodify</path>
+        <activity>.x_addcar.AddCarActivity</activity>
+        <params>
+            <param>id</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/myaddressmanager</path>
+        <activity>.x_address.address_list.AddressListActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/addressinfomodify</path>
+        <activity>.x_address.address_new.AddressNewActivity</activity>
+        <params>
+            <param>id</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/mycarmaintain</path>
+        <activity>.x_maintain.MaintainActivity</activity>
+        <params>
+            <param>id</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/nmtshoppingcar</path>
+        <activity>.x_shopcar.ShopCarActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/nmtorderpaystepone</path>
+        <activity>.x_firmorder.FirmOrderActivity</activity>
+        <params>
+            <param>guid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/nmtorderpaysteptwo</path>
+        <activity>.x_payorder.PayOrderActivity</activity>
+        <params>
+            <param>guid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/orderlist</path>
+        <activity>.x_settleorder.SettleOrderActivity</activity>
+        <params>
+            <param>ordertype</param>
+            <param>orderstate</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/orderdetail</path>
+        <activity>.x_orderinfo.OrderInfoActivity</activity>
+        <params>
+            <param>orderid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/orderdetailexpress</path>
+        <activity>.x_wuliu.WuliuActivity</activity>
+        <params>
+            <param>orderid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/ordermakerv</path>
+        <activity>.x_comment.CommentActivity</activity>
+        <params>
+            <param>orderid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/mycollect</path>
+        <activity>.x_mycollection.MyCollectionsActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/setuserinfo</path>
+        <activity>.x_setup.SetUpActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/nmtgoodslist</path>
+        <activity>.x_search.SearchActivity</activity>
+        <params>
+            <param>keyword</param>
+            <param>typeid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/nmtgoodsdetail</path>
+        <activity>.x_shopmallgoodsdetail.GoodsDetailActivity</activity>
+        <params>
+            <param>goodsid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/nmtgoodscategory</path>
+        <activity>.x_classify.ClassifyActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/weixinpay</path>
+        <activity>.wx.WxPayActivity</activity>
+        <params>
+            <param>out_trade_no</param>
+            <param>total_fee</param>
+            <param>subject</param>
+            <param>body</param>
+            <param>notifyurl_type</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/homepage</path>
+        <activity>.MainActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/rootchebaidu</path>
+        <activity>.MainActivity</activity>
+        <params>
+            <param>index</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/rootcheshangcheng</path>
+        <activity>.MainActivity</activity>
+        <params>
+            <param>index</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/rootusercenter</path>
+        <activity>.MainActivity</activity>
+        <params>
+            <param>index</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/alipay</path>
+        <activity>.ali.AliPayActivity</activity>
+        <params>
+            <param>out_trade_no</param>
+            <param>total_fee</param>
+            <param>subject</param>
+            <param>body</param>
+            <param>notifyurl_type</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/map</path>
+        <activity>.x_map.activity.GaodeMapForSchemeActivity</activity>
+        <params>
+            <param>address</param>
+            <param>latitude</param>
+            <param>longitude</param>
+            <param>pointname</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/vehiclelist</path>
+        <activity>.x_vehicletradelist.VehicletradeListActivity</activity>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/vehicledetail</path>
+        <activity>.x_vehicletradedetail.VehicletradedetailActivity</activity>
+        <params>
+            <param>vehiclid</param>
+        </params>
+    </router>
+
+    <router>
+        <host>api.ixiuc.com</host>
+        <path>/page/vehiclorderlist</path>
+        <activity>.x_vehicorder.VehicOrderActivity</activity>
+    </router>
+</routers>

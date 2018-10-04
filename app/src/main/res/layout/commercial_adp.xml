@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/seller_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/shop_img"
+        android:layout_margin="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/seller_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/seller_img"
+        style="@style/gray66.12"
+        android:layout_marginEnd="10dp"
+        android:text="南通市" />
+
+    <TextView
+        android:id="@+id/seller_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/seller_img"
+        android:layout_toLeftOf="@id/seller_city"
+        android:layout_alignTop="@id/seller_img"
+        style="@style/gray33.16"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="江苏弘丰汽车服务有限公司" />
+
+    <TextView
+        android:id="@+id/seller_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/seller_city"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        style="@style/gray66.12"
+        android:text="3.4km" />
+
+    <TextView
+        android:id="@+id/seller_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/seller_distance"
+        android:layout_alignBottom="@id/seller_distance"
+        android:layout_alignLeft="@id/seller_name"
+        android:ellipsize="end"
+        android:singleLine="true"
+        style="@style/gray99.10"
+        android:text="开发区东方汽车城置庆路3号" />
+
+    <TextView
+        android:id="@+id/seller_pingfen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_distance"
+        android:layout_alignLeft="@id/seller_name"
+        android:layout_marginTop="5dp"
+        android:text="5.0分" />
+
+    <TextView
+        android:id="@+id/seller_leixing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/seller_pingfen"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/shape_corner_blue"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        style="@style/white.12"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="修理厂" />
+</RelativeLayout>

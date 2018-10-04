@@ -1,0 +1,11 @@
+<resources>
+    <string name="around">附近</string>
+    <string name="longitude_and_latitude">经纬度值:</string>
+    <string name="position_description">\n位置描述:</string>
+    <string name="seek_fail">定位失败,</string>
+
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="map_title">地图</string>
+</resources>

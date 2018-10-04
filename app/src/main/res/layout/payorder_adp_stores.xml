@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/store_name"
+            style="@style/gray03.18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="商店"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_ce"
+            android:layout_below="@id/store_name"
+            android:layout_marginTop="5dp"
+            />
+
+        <com.clown.wyxc.components.WrapContentHeightListView
+            android:id="@+id/rv_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:dividerHeight="3dp"
+            />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_ce"
+            android:layout_below="@id/rv_item"
+            android:layout_marginTop="5dp"
+            />
+
+        <com.clown.wyxc.components.TitleTextview
+            android:id="@+id/postvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line2"
+            android:layout_alignLeft="@id/rv_item"
+            custom:tt_text_front="邮费："
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/line2"
+            android:text="共件商品 合计元"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

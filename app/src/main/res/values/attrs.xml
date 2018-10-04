@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NiceSpinner">
+        <attr name="arrowTint" format="color" />
+        <attr name="hideArrow" format="boolean" />
+        <attr name="backgroundSelector" format="integer"/>
+        <attr name="textTint" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalItem">
+        <attr name="hi_text" format="string" />
+        <attr name="hi_imageid" format="reference"/>
+        <attr name="hi_imageshow" format="boolean"/>
+        <attr name="hi_arrshow" format="boolean"/>
+        <attr name="hi_imageurl" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorfulButton">
+        <attr name="cfb_text" format="string" />
+        <attr name="cfb_imageid" format="reference"/>
+        <attr name="cfb_backgroudcolor" format="reference"/>
+        <attr name="cfb_imageshow" format="boolean"/>
+        <attr name="cfb_imageurl" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitleTextview">
+                <attr name="tt_text_front" format="string" />
+        <attr name="tt_text_back" format="string" />
+        <attr name="tt_text_frontcolor" format="color|reference"/>
+        <attr name="tt_text_backcolor" format="color|reference"/>
+        <attr name="tt_text_frontsize" format="dimension"/>
+        <attr name="tt_text_backsize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitleTagGroup">
+        <attr name="ttg_text_front" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="VerticalTextViews">
+        <attr name="vt_text_front" format="string" />
+        <attr name="vt_text_back" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="VerticalImageView">
+        <attr name="vi_text_front" format="reference" />
+        <attr name="vi_text_back" format="string" />
+    </declare-styleable>
+
+    <attr name="tagViewStyle" format="reference" />
+    <declare-styleable name="TagView">
+        <attr name="tagCornerRadius" format="dimension" />
+        <attr name="tagPadding" format="dimension" />
+        <attr name="tagUppercase" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ArrowRectangleView">
+        <attr name="arrow_width" format="dimension" />
+        <attr name="arrow_height" format="dimension" />
+        <attr name="arrow_offset" format="dimension" />
+        <attr name="radius_arrow" format="dimension" />
+        <attr name="background_color" format="color" />
+        <attr name="shadow_color" format="color" />
+        <attr name="shadow_thickness" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="GoogleCircleProgressView">
+        <attr name="gcp_inner_radius" format="dimension"/>
+        <attr name="gcp_background_color" format="color"/>
+        <attr name="gcp_progress_color" format="color"/>
+        <attr name="gcp_progress_stoke_width" format="dimension"/>
+        <attr name="gcp_show_arrow" format="boolean"/>
+        <attr name="gcp_enable_circle_background" format="boolean"/>
+        <attr name="gcp_arrow_width" format="dimension"/>
+        <attr name="gcp_arrow_height" format="dimension"/>
+
+        <attr name="gcp_progress" format="integer"/>
+        <attr name="gcp_max" format="integer"/>
+
+
+        <attr name="gcp_progress_text_size" format="dimension"/>
+        <attr name="gcp_progress_text_color" format="color"/>
+
+        <!--<attr name="gcp_progress_text_offset" format="dimension"/>-->
+
+        <attr name="gcp_progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="StepView">
+        <attr name="leftMargin" format="dimension"/>
+        <attr name="rightMargin" format="dimension"/>
+        <attr name="svlineWidth" format="dimension"/>
+        <attr name="svradius" format="dimension"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="defaultDotColor" format="color"/>
+        <attr name="highDotColor" format="color"/>
+        <attr name="dotPosition" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+        <attr name="defaultDotDrawable" format="reference"/>
+        <attr name="highDotDrawable" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <com.clown.wyxc.components.ImageViewEqualScaling
+        android:id="@+id/img_carPic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/test_img_default"
+        android:layout_margin="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_carName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_carPic"
+        android:layout_alignTop="@id/img_carPic"
+        android:textStyle="bold"
+        style="@style/gray33.16"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="福特 锐界" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_carPic"
+        android:layout_toRightOf="@+id/img_carPic"
+        android:text="0.00"
+        />
+
+    <TextView
+        android:id="@+id/tv_erweima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看二维码"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/tv_price"
+        android:layout_alignParentRight="true"
+        style="@style/white.18"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:background="@color/red"
+        />
+
+</RelativeLayout>

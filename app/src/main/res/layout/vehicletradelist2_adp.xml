@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.clown.wyxc.components.ImageViewEqualScaling
+        android:id="@+id/img_carPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/test_img_default"
+        />
+
+    <TextView
+        android:id="@+id/tv_carName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        style="@style/gray33.16"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:text="福特 锐界" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/red"
+            android:textSize="16sp"
+            android:text="0.00"
+            />
+
+        <TextView
+            android:id="@+id/tv_endprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_carPic"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/tv_price"
+            android:layout_marginLeft="10dp"
+            android:text="0.00"
+            />
+    </LinearLayout>
+
+</LinearLayout>

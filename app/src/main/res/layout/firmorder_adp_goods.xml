@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/goods_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/goods_default" />
+
+    <TextView
+        android:id="@+id/goods_price"
+        style="@style/gray55.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/goods_image"
+        android:layout_marginRight="10dp"
+        android:text="￥0.00" />
+
+    <TextView
+        android:id="@+id/goods_name"
+        style="@style/gray55.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/goods_image"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@id/goods_price"
+        android:layout_toRightOf="@id/goods_image"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@null" />
+
+    <TextView
+        android:id="@+id/goods_attr"
+        style="@style/gray55.12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/goods_image"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/goods_price"
+        android:visibility="gone"
+        android:layout_toRightOf="@id/goods_image"
+        android:text="@null" />
+
+    <TextView
+        android:id="@+id/goods_oldprice"
+        style="@style/gray99.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/goods_price"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="￥0.00"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/goods_num"
+        style="@style/gray99.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/goods_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="x 0" />
+
+
+    <com.clown.wyxc.components.TagView
+        android:id="@+id/goods_tag"
+        style="@style/Widget.TagView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/goods_image"
+        android:layout_below="@id/goods_image"
+        android:layout_marginTop="5dp" />
+
+    <com.clown.wyxc.components.WrapContentHeightListView
+        android:id="@+id/fav_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/goods_image"
+        android:layout_below="@id/goods_tag"
+        android:layout_marginTop="10dp" />
+
+    <com.clown.wyxc.components.WrapContentHeightListView
+        android:id="@+id/fav_item_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/goods_image"
+        android:layout_below="@id/fav_item"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

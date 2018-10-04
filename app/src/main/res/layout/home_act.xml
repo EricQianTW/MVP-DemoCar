@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    style="@style/match_match">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/cl_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.clown.wyxc.components.BottomScrollView
+            android:id="@+id/ns_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/titleFrame"
+                    style="@style/match_wrap"
+                    android:layout_alignParentTop="true" />
+
+                <FrameLayout
+                    android:id="@+id/bannerFrame"
+                    style="@style/match_wrap"
+                    android:layout_below="@id/titleFrame"
+                    android:layout_marginTop="1dp"
+                    />
+
+                <FrameLayout
+                    android:id="@+id/iconFrame"
+                    style="@style/match_wrap"
+                    android:layout_below="@id/bannerFrame"
+                    android:layout_marginTop="10dp" />
+
+                <FrameLayout
+                    android:id="@+id/recommendGoodsFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iconFrame"
+                    android:layout_marginTop="10dp" />
+
+                <FrameLayout
+                    android:id="@+id/goodSellerFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/recommendGoodsFrame"
+                    android:layout_marginTop="10dp" />
+
+            </RelativeLayout>
+        </com.clown.wyxc.components.BottomScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

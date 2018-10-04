@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/edit"
+        android:icon="@mipmap/tab_contact_select"
+        android:title="@string/share_pengyouquan" />
+
+    <item
+        android:id="@+id/copy"
+        android:icon="@mipmap/tab_contact_select"
+        android:title="@string/share_weixin" />
+
+</menu>

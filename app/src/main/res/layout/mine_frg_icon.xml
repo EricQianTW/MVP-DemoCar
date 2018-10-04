@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <com.clown.wyxc.components.VerticalImageView
+            android:id="@+id/mycar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            custom:vi_text_back="我的车辆"
+            custom:vi_text_front="@drawable/my_car" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_ce"
+            android:visibility="gone" />
+
+        <com.clown.wyxc.components.VerticalImageView
+            android:id="@+id/allorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            custom:vi_text_back="全部订单"
+            custom:vi_text_front="@drawable/all_order" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_ce"
+            android:visibility="gone" />
+
+        <com.clown.wyxc.components.VerticalImageView
+            android:id="@+id/carappointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            custom:vi_text_back="整车预约"
+            custom:vi_text_front="@drawable/appiontment" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_ce" />
+
+        <com.clown.wyxc.components.VerticalImageView
+            android:id="@+id/serviceorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            custom:vi_text_back="服务订单"
+            custom:vi_text_front="@drawable/service_order" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_ce" />
+
+        <com.clown.wyxc.components.VerticalImageView
+            android:id="@+id/goodsorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            custom:vi_text_back="商品订单"
+            custom:vi_text_front="@drawable/account" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_ce" />
+
+        <com.clown.wyxc.components.VerticalImageView
+            android:id="@+id/maintainorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            custom:vi_text_back="整车预约"
+            custom:vi_text_front="@drawable/account" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

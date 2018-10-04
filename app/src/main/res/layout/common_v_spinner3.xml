@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="horizontal">
+
+    <com.clown.wyxc.components.nicespinner.NiceSpinner
+        android:id="@+id/ns_one"
+        style="@style/match_wrap"
+        android:layout_weight="1"/>
+
+    <com.clown.wyxc.components.nicespinner.NiceSpinner
+        android:id="@+id/ns_two"
+        style="@style/match_wrap"
+        android:layout_weight="1"/>
+
+    <com.clown.wyxc.components.nicespinner.NiceSpinner
+        android:id="@+id/ns_three"
+        style="@style/match_wrap"
+        android:layout_weight="1"/>
+
+</LinearLayout>

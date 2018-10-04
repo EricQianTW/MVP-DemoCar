@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_main">
+
+
+
+        <ImageView
+            android:id="@+id/iv_service"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/customerservices"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/msg_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/iv_service"/>
+
+    <LinearLayout
+        android:layout_below="@id/msg_recycler"
+        android:layout_toLeftOf="@id/iv_service"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/btn_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@color/brown_74"/>
+
+        <Button
+            android:id="@+id/btn_apply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="撤销申请"
+            android:textSize="18sp"
+            android:background="@color/red_ff"/>
+
+    </LinearLayout>
+</RelativeLayout>

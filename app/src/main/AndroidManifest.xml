@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clown.wyxc">
+
+    <permission
+        android:name="com.clown.wyxc.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- 权限列表依次排序，如有添加亦是 -->
+    <uses-permission android:name="com.clown.wyxc.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".base.ApplicationManager"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".x_login.LoginActivity"
+            android:label="登录"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".x_mine.qr_code.MineQrCodeActivity"
+            android:label="我的二维码"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_findloginpasswd.FindLoginPasswdActivity"
+            android:label="找回密码"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ali.AliPayActivity"
+            android:label="支付宝支付"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".photo.PhotoActivity"
+            android:label="照片"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_companydetail.CompanyDetailActivity"
+            android:label="详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_companyservices.CompanyServicesActivity"
+            android:label="服务"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_settleorder.SettleOrderActivity"
+            android:label="结算订单"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_brandlist.BrandListActivity"
+            android:label="爱车车型"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_mycar.MyCarActivity"
+            android:label="我的爱车"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_citychoose.CityChooseActivity"
+            android:label="城市选择"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_brandsublist.BrandSubListActivity"
+            android:label="爱车型号"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_map.activity.GaodeMapForSchemeActivity"
+            android:label="导航"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_qrcode.QrCodeActivity"
+            android:label="验证码"
+            android:theme="@style/TranslucentFullScreenTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_map.activity.ReGeocoderActivity"
+            android:label="导航"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_classify.ClassifyActivity"
+            android:label="分类"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_comment.CommentActivity"
+            android:label="评价"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_mycollection.MyCollectionsActivity"
+            android:label="我的收藏"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_yearwithcar.YearWithCarActivity"
+            android:label="具体车型"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_callphone.CallPhoneActivity"
+            android:label="客服电话"
+            android:theme="@style/TranslucentFullScreenTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_carwithyear.CarWithYearActivity"
+            android:label="车型"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_search.SearchActivity"
+            android:label="商品查询"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_html.HtmlActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".html.HtmlActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wx.WxPayActivity"
+            android:label="微信支付"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_wuliu.WuliuActivity"
+            android:label="物流详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_addcar.AddCarActivity"
+            android:label="添加车辆"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_vehicletradedetail.VehicletradedetailActivity"
+            android:label="整车详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_vehicletradelist.VehicletradeListActivity"
+            android:label="整车交易"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_welcome.WelcomActivity"
+            android:label="我要修车网"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".scheme.SchemeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="api.ixiuc.com"
+                    android:scheme="hfwyxc" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InternetVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".x_setup.SetUpActivity"
+            android:label="设置"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_maintain.MaintainActivity"
+            android:label="保养"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_maintainitems.MaintainItemsActivity"
+            android:label="服务细则"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_maintainall.MaintainAllActivity"
+            android:label="保养项目"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_changeheader.ChangeHeaderActivity"
+            android:label="修改头像"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_address.address_list.AddressListActivity"
+            android:label="收货地址列表"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_findpaypassword.FindPayPasswdActivity"
+            android:label="支付密码修改"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_shopmallgoodsdetail.GoodsDetailActivity"
+            android:label="商品详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_feedback.FeedbackActivity"
+            android:label="我要反馈"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_dispatching.DispatchingActivity"
+            android:label="配送"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_address.address_new.AddressNewActivity"
+            android:label="新增收货地址"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_myorder.MyOrderActivity"
+            android:label="我的订单"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_payorder.PayOrderActivity"
+            android:label="支付中心"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_address.address_manager.AddressManagerActivity"
+            android:label="收货地址管理"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_firmorder.FirmOrderActivity"
+            android:label="结算中心"
+            android:screenOrientation="portrait" />
+        <activity android:name=".zxing.activity.CaptureActivity" />
+        <activity
+            android:name=".x_shopcar.ShopCarActivity"
+            android:label="购物车"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_vehicorder.VehicOrderActivity"
+            android:label="整车预约列表"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_orderinfo.OrderInfoActivity"
+            android:label="订单详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_message.MessageActivity"
+            android:label="消息列表"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_slide.SlideActivity"
+            android:label="欢迎画面" />
+        <activity
+            android:name=".x_share.ShareForSchemeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyleBottom"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".x_share.ShareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentFullScreenTheme" />
+
+        <!-- 微信api start -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <!-- 微信api end -->
+
+        <!-- 高德api start -->
+        <service android:name="com.amap.api.location.APSService" />
+        <!-- TODO //高德开发者申请的key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="xxxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <!-- 高德api end -->
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.clown.wyxc" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.clown.wyxc" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.clown.wyxc" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name=".components.jpush.MyReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.clown.wyxc" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="zzzzzzzzzzzzzzzzzzzzzz" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.clown.wyxc.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

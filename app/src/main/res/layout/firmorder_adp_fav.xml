@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.clown.wyxc.components.TitleTextview
+        android:id="@+id/tv_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        custom:tt_text_back="￥0.00"
+        custom:tt_text_backcolor="@color/gray_ff77"
+        custom:tt_text_backsize="@dimen/fontsize_16"
+        custom:tt_text_front=""
+        custom:tt_text_frontcolor="@color/black_22"
+        custom:tt_text_frontsize="@dimen/fontsize_16" />
+
+    <CheckBox
+        android:id="@+id/cb_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:button="@drawable/btn_radio"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingLeft="20px"
+        android:textColor="@color/red_f7" />
+
+</RelativeLayout>

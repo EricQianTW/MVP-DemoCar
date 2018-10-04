@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/cb_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:button="@drawable/btn_radio"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingLeft="20px"
+            android:text="全选"
+            android:textColor="@color/red_f7"
+            android:visibility="gone" />
+
+        <com.clown.wyxc.components.TitleTextview
+            android:id="@+id/goods_salvenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/cb_choice"
+            custom:tt_text_back="0.00"
+            custom:tt_text_backcolor="@color/black_22"
+            custom:tt_text_backsize="@dimen/fontsize_18"
+            custom:tt_text_front="合计："
+            custom:tt_text_frontcolor="@color/black_22"
+            custom:tt_text_frontsize="@dimen/fontsize_18" />
+
+        <TextView
+            android:id="@+id/btn_buy"
+            style="@style/white.18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp"
+            android:background="#F9454D"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:text="提交订单" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_main_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/icon_address"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/icon_address" />
+
+        <ImageView
+            android:id="@+id/icon_arrow"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/arrow_right" />
+
+        <RelativeLayout
+            android:id="@+id/rl_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/icon_arrow"
+            android:layout_toRightOf="@id/icon_address">
+
+            <TextView
+                android:id="@+id/tv_username"
+                style="@style/gray55.18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="用户名" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                style="@style/gray55.18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_username"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:text="13xxxxxxxxx" />
+
+            <com.clown.wyxc.components.TitleTextview
+                android:id="@+id/tt_receiver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_username"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                custom:tt_text_back="江苏弘丰汽车服务有限公司"
+                custom:tt_text_backcolor="@color/gray_55"
+                custom:tt_text_backsize="@dimen/fontsize_16"
+                custom:tt_text_front="送货到家："
+                custom:tt_text_frontcolor="@color/gray_55"
+                custom:tt_text_frontsize="@dimen/fontsize_16" />
+
+            <TextView
+                android:id="@+id/tt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tt_receiver"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="南通市经济开发区吉庆路3号" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/rl_comment"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/address_line" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_button"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ll_main_address">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_icon"
+                    android:layout_width="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_coupon"
+                    android:layout_width="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

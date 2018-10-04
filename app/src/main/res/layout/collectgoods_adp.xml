@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/ll_storename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        
+        <TextView
+            android:id="@+id/tv_storename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司名称"
+            style="@style/gray03.18"
+            android:padding="10dp"
+            />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/tv_storename"
+
+            android:background="@color/gray_theme"/>
+
+    </RelativeLayout>
+
+    <com.clown.wyxc.components.ImageViewEqualScaling
+        android:id="@+id/img_carPic"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_storename"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/test_img_default" />
+
+    <TextView
+        android:id="@+id/tv_carName"
+        style="@style/gray33.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/img_carPic"
+        android:layout_toRightOf="@id/img_carPic"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="福特 锐界"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_carInfo"
+        style="@style/gray99.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_carName"
+        android:layout_below="@id/tv_carName"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="2016款 EcoBoost 245 四驱豪锐型 7座" />
+
+    <TextView
+        android:id="@+id/tv_carTime"
+        style="@style/gray66.12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_carName"
+        android:layout_below="@id/tv_carInfo"
+        android:layout_marginTop="5dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_carDistance"
+        style="@style/gray66.12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_carTime"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:text="行驶3.5万公里" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_addcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="添加车辆"
+        style="@style/white.18"
+        android:background="@color/blue_608"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_theme"
+        android:layout_above="@id/tv_addcar"
+        android:visibility="visible" />
+
+</RelativeLayout>

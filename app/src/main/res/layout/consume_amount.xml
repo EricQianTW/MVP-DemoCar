@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_00"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="20dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:text="Medium Text"
+        android:id="@+id/month_tv" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20dp"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        android:text="000000000"
+        android:id="@+id/month_amount_tv" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_weight="10"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:textColor="#9dd3f3"
+             android:textSize="24sp"
+             android:text="历史消费金额："
+             style="@style/bule_57.20"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="9"
+             android:textColor="#9dd3f3"
+             android:textSize="24dp"
+             android:text="46545645" />
+
+     </LinearLayout>
+
+
+</LinearLayout>

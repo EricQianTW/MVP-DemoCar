@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_huizong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_zongjiatitle"
+                style="@style/black22.22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总价" />
+
+            <TextView
+                android:id="@+id/zongjia"
+                style="@style/gray_99.22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_zongjiatitle"
+                android:layout_alignParentRight="true"
+                android:text="￥0.00" />
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/zongjia"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_theme" />
+
+            <TextView
+                android:id="@+id/tv_zhifujiagetitle"
+                style="@style/black22.22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line"
+                android:layout_marginTop="10dp"
+                android:text="支付价格" />
+
+            <TextView
+                android:id="@+id/zhifujiage"
+                style="@style/gray_99.22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_zhifujiagetitle"
+                android:layout_alignParentRight="true"
+                android:text="￥0.00" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_jifen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_huizong"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/jifen_title"
+                style="@style/black22.22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="年卡" />
+
+            <RelativeLayout
+                android:id="@+id/rl_nianka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jifen_title"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp">
+
+                <com.clown.wyxc.components.TitleTextview
+                    android:id="@+id/jifen_zongjine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="visible"
+                    custom:tt_text_back="￥0.00"
+                    custom:tt_text_backcolor="@color/red"
+                    custom:tt_text_backsize="@dimen/fontsize_18"
+                    custom:tt_text_front="总金额："
+                    custom:tt_text_frontcolor="@color/gray_99"
+                    custom:tt_text_frontsize="@dimen/fontsize_18" />
+
+                <com.clown.baselibray.material.widget.Switch
+                    android:id="@+id/cb_jifenchoice"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nianka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_nianka"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                tool:visibility="visible">
+
+                <com.clown.wyxc.components.TitleTextview
+                    android:id="@+id/jifen_kedikou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    custom:tt_text_back="￥0.00"
+                    custom:tt_text_backcolor="@color/red"
+                    custom:tt_text_backsize="@dimen/fontsize_18"
+                    custom:tt_text_front="可抵扣："
+                    custom:tt_text_frontcolor="@color/gray_99"
+                    custom:tt_text_frontsize="@dimen/fontsize_18" />
+
+                <com.clown.wyxc.components.TitleTextview
+                    android:id="@+id/jifen_yidikou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/jifen_kedikou"
+                    android:visibility="gone"
+                    custom:tt_text_back="￥0.00"
+                    custom:tt_text_backcolor="@color/red"
+                    custom:tt_text_backsize="@dimen/fontsize_18"
+                    custom:tt_text_front="已抵扣："
+                    custom:tt_text_frontcolor="@color/gray_99"
+                    custom:tt_text_frontsize="@dimen/fontsize_18" />
+
+                <EditText
+                    android:id="@+id/et_yidikou"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="numberDecimal"
+                    android:background="@drawable/editsharp"
+                    android:hint="请输入抵扣金额" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/jinecomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_jifen"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/bt_comitpay"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#F9454D"
+            android:text="确认支付"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>

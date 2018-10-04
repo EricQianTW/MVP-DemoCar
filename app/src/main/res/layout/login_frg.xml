@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/logo" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_icon"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/phone_num"
+                android:hint="请输入手机号"
+                android:inputType="phone"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/et_passwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_phone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/password"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:text=""
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/bt_getIdentifying"
+                style="@style/white.14"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/et_passwd"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_corner_10_blue"
+                android:gravity="center"
+                android:text="获取验证码"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_identifying"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_passwd"
+                android:layout_marginLeft="20dp"
+                android:layout_toLeftOf="@id/bt_getIdentifying"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/security_code"
+                android:hint="请输入验证码"
+                android:inputType="number"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_forgetpass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_identifying"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:padding="10dp"
+                android:text="忘记密码？找回密码"
+                android:textColor="@color/gray_aa"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_cutmothed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/et_identifying"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="60dp"
+                android:padding="10dp"
+                android:textColor="@color/gray_aa"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/bt_login"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/tv_forgetpass"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_corner_blue2"
+                android:text="立即登录"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bt_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:text="注册代表同意《我要修车网用户协议》"
+                android:textColor="@color/gray_aa"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/findpasswd_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/email_login_form2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_icon2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/meiyelogo" />
+
+            <EditText
+                android:id="@+id/et_phone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_icon2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_consume"
+                android:hint="请输入手机号"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/bt_getIdentifying2"
+                style="@style/white.14"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/et_phone2"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_corner_10_blue"
+                android:gravity="center"
+                android:text="获取验证码" />
+
+            <EditText
+                android:id="@+id/et_identifying2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_phone2"
+                android:layout_marginLeft="20dp"
+                android:layout_toLeftOf="@id/bt_getIdentifying2"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_consume"
+                android:hint="请输入验证码"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/et_passwd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_identifying2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_consume"
+                android:hint="请输入密码"
+                android:inputType="textVisiblePassword" />
+
+            <Button
+                android:id="@+id/bt_login2"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/et_passwd2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/shape_corner_blue2"
+                android:text="提交"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_cutmothed2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/bt_login2"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="34dp"
+                android:padding="10dp"
+                android:text="验证码登录"
+                android:textColor="@color/gray_aa"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="1dp"
+        android:layout_height="1dp" />
+</LinearLayout>

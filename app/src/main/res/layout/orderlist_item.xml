@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stepper="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/goods_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/cb_choice"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/goods_default"
+        />
+
+    <TextView
+        android:id="@+id/goods_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/goods_image"
+        android:layout_toLeftOf="@id/goods_price"
+        android:text="商品名称"
+        style="@style/gray55.16"
+        />
+
+    <TextView
+        android:id="@+id/goods_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/goods_name"
+        android:text="￥0.00"
+        style="@style/gray55.18"
+        />
+
+    <TextView
+        android:id="@+id/old_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="￥0.00"
+        android:visibility="gone"
+        android:layout_below="@id/goods_price"
+        style="@style/gray99.16"/>
+
+    <TextView
+        android:id="@+id/goods_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/old_price"
+        android:layout_marginTop="5dp"
+        style="@style/gray99.16"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/goods_image"
+        >
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

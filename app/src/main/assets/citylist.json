@@ -1,0 +1,3316 @@
+{
+    "body": [
+        {
+            "center": "116.405285,39.904989",
+            "prefix": "B",
+            "adcode": "110100",
+            "citycode": "010",
+            "level": "city",
+            "districts": [],
+            "name": "北京市市辖区"
+        },
+        {
+            "center": "117.190182,39.125596",
+            "prefix": "T",
+            "adcode": "120100",
+            "citycode": "022",
+            "level": "city",
+            "districts": [],
+            "name": "天津市市辖区"
+        },
+        {
+            "center": "114.502461,38.045474",
+            "prefix": "S",
+            "adcode": "130100",
+            "citycode": "0311",
+            "level": "city",
+            "districts": [],
+            "name": "石家庄市"
+        },
+        {
+            "center": "118.175393,39.635113",
+            "prefix": "T",
+            "adcode": "130200",
+            "citycode": "0315",
+            "level": "city",
+            "districts": [],
+            "name": "唐山市"
+        },
+        {
+            "center": "119.586579,39.942531",
+            "prefix": "Q",
+            "adcode": "130300",
+            "citycode": "0335",
+            "level": "city",
+            "districts": [],
+            "name": "秦皇岛市"
+        },
+        {
+            "center": "114.490686,36.612273",
+            "prefix": "H",
+            "adcode": "130400",
+            "citycode": "0310",
+            "level": "city",
+            "districts": [],
+            "name": "邯郸市"
+        },
+        {
+            "center": "114.508851,37.0682",
+            "prefix": "X",
+            "adcode": "130500",
+            "citycode": "0319",
+            "level": "city",
+            "districts": [],
+            "name": "邢台市"
+        },
+        {
+            "center": "115.482331,38.867657",
+            "prefix": "B",
+            "adcode": "130600",
+            "citycode": "0312",
+            "level": "city",
+            "districts": [],
+            "name": "保定市"
+        },
+        {
+            "center": "114.884091,40.811901",
+            "prefix": "Z",
+            "adcode": "130700",
+            "citycode": "0313",
+            "level": "city",
+            "districts": [],
+            "name": "张家口市"
+        },
+        {
+            "center": "117.939152,40.976204",
+            "prefix": "C",
+            "adcode": "130800",
+            "citycode": "0314",
+            "level": "city",
+            "districts": [],
+            "name": "承德市"
+        },
+        {
+            "center": "116.857461,38.310582",
+            "prefix": "C",
+            "adcode": "130900",
+            "citycode": "0317",
+            "level": "city",
+            "districts": [],
+            "name": "沧州市"
+        },
+        {
+            "center": "116.704441,39.523927",
+            "prefix": "L",
+            "adcode": "131000",
+            "citycode": "0316",
+            "level": "city",
+            "districts": [],
+            "name": "廊坊市"
+        },
+        {
+            "center": "115.665993,37.735097",
+            "prefix": "H",
+            "adcode": "131100",
+            "citycode": "0318",
+            "level": "city",
+            "districts": [],
+            "name": "衡水市"
+        },
+        {
+            "center": "112.549248,37.857014",
+            "prefix": "T",
+            "adcode": "140100",
+            "citycode": "0351",
+            "level": "city",
+            "districts": [],
+            "name": "太原市"
+        },
+        {
+            "center": "113.295259,40.09031",
+            "prefix": "D",
+            "adcode": "140200",
+            "citycode": "0352",
+            "level": "city",
+            "districts": [],
+            "name": "大同市"
+        },
+        {
+            "center": "113.583285,37.861188",
+            "prefix": "Y",
+            "adcode": "140300",
+            "citycode": "0353",
+            "level": "city",
+            "districts": [],
+            "name": "阳泉市"
+        },
+        {
+            "center": "113.113556,36.191112",
+            "prefix": "Z",
+            "adcode": "140400",
+            "citycode": "0355",
+            "level": "city",
+            "districts": [],
+            "name": "长治市"
+        },
+        {
+            "center": "112.851274,35.497553",
+            "prefix": "J",
+            "adcode": "140500",
+            "citycode": "0356",
+            "level": "city",
+            "districts": [],
+            "name": "晋城市"
+        },
+        {
+            "center": "112.433387,39.331261",
+            "prefix": "S",
+            "adcode": "140600",
+            "citycode": "0349",
+            "level": "city",
+            "districts": [],
+            "name": "朔州市"
+        },
+        {
+            "center": "112.736465,37.696495",
+            "prefix": "J",
+            "adcode": "140700",
+            "citycode": "0354",
+            "level": "city",
+            "districts": [],
+            "name": "晋中市"
+        },
+        {
+            "center": "111.003957,35.022778",
+            "prefix": "Y",
+            "adcode": "140800",
+            "citycode": "0359",
+            "level": "city",
+            "districts": [],
+            "name": "运城市"
+        },
+        {
+            "center": "112.733538,38.41769",
+            "prefix": "X",
+            "adcode": "140900",
+            "citycode": "0350",
+            "level": "city",
+            "districts": [],
+            "name": "忻州市"
+        },
+        {
+            "center": "111.517973,36.08415",
+            "prefix": "L",
+            "adcode": "141000",
+            "citycode": "0357",
+            "level": "city",
+            "districts": [],
+            "name": "临汾市"
+        },
+        {
+            "center": "111.134335,37.524366",
+            "prefix": "L",
+            "adcode": "141100",
+            "citycode": "0358",
+            "level": "city",
+            "districts": [],
+            "name": "吕梁市"
+        },
+        {
+            "center": "111.670801,40.818311",
+            "prefix": "H",
+            "adcode": "150100",
+            "citycode": "0471",
+            "level": "city",
+            "districts": [],
+            "name": "呼和浩特市"
+        },
+        {
+            "center": "109.840405,40.658168",
+            "prefix": "B",
+            "adcode": "150200",
+            "citycode": "0472",
+            "level": "city",
+            "districts": [],
+            "name": "包头市"
+        },
+        {
+            "center": "106.825563,39.673734",
+            "prefix": "W",
+            "adcode": "150300",
+            "citycode": "0473",
+            "level": "city",
+            "districts": [],
+            "name": "乌海市"
+        },
+        {
+            "center": "118.956806,42.275317",
+            "prefix": "C",
+            "adcode": "150400",
+            "citycode": "0476",
+            "level": "city",
+            "districts": [],
+            "name": "赤峰市"
+        },
+        {
+            "center": "122.263119,43.617429",
+            "prefix": "T",
+            "adcode": "150500",
+            "citycode": "0475",
+            "level": "city",
+            "districts": [],
+            "name": "通辽市"
+        },
+        {
+            "center": "109.99029,39.817179",
+            "prefix": "E",
+            "adcode": "150600",
+            "citycode": "0477",
+            "level": "city",
+            "districts": [],
+            "name": "鄂尔多斯市"
+        },
+        {
+            "center": "119.758168,49.215333",
+            "prefix": "H",
+            "adcode": "150700",
+            "citycode": "0470",
+            "level": "city",
+            "districts": [],
+            "name": "呼伦贝尔市"
+        },
+        {
+            "center": "107.416959,40.757402",
+            "prefix": "B",
+            "adcode": "150800",
+            "citycode": "0478",
+            "level": "city",
+            "districts": [],
+            "name": "巴彦淖尔市"
+        },
+        {
+            "center": "113.114543,41.034126",
+            "prefix": "W",
+            "adcode": "150900",
+            "citycode": "0474",
+            "level": "city",
+            "districts": [],
+            "name": "乌兰察布市"
+        },
+        {
+            "center": "122.070317,46.076268",
+            "prefix": "X",
+            "adcode": "152200",
+            "citycode": "0482",
+            "level": "city",
+            "districts": [],
+            "name": "兴安盟"
+        },
+        {
+            "center": "116.090996,43.944018",
+            "prefix": "X",
+            "adcode": "152500",
+            "citycode": "0479",
+            "level": "city",
+            "districts": [],
+            "name": "锡林郭勒盟"
+        },
+        {
+            "center": "105.706422,38.844814",
+            "prefix": "A",
+            "adcode": "152900",
+            "citycode": "0483",
+            "level": "city",
+            "districts": [],
+            "name": "阿拉善盟"
+        },
+        {
+            "center": "123.429096,41.796767",
+            "prefix": "S",
+            "adcode": "210100",
+            "citycode": "024",
+            "level": "city",
+            "districts": [],
+            "name": "沈阳市"
+        },
+        {
+            "center": "121.618622,38.91459",
+            "prefix": "D",
+            "adcode": "210200",
+            "citycode": "0411",
+            "level": "city",
+            "districts": [],
+            "name": "大连市"
+        },
+        {
+            "center": "122.995632,41.110626",
+            "prefix": "A",
+            "adcode": "210300",
+            "citycode": "0412",
+            "level": "city",
+            "districts": [],
+            "name": "鞍山市"
+        },
+        {
+            "center": "123.921109,41.875956",
+            "prefix": "F",
+            "adcode": "210400",
+            "citycode": "0413",
+            "level": "city",
+            "districts": [],
+            "name": "抚顺市"
+        },
+        {
+            "center": "123.770519,41.297909",
+            "prefix": "B",
+            "adcode": "210500",
+            "citycode": "0414",
+            "level": "city",
+            "districts": [],
+            "name": "本溪市"
+        },
+        {
+            "center": "124.383044,40.124296",
+            "prefix": "D",
+            "adcode": "210600",
+            "citycode": "0415",
+            "level": "city",
+            "districts": [],
+            "name": "丹东市"
+        },
+        {
+            "center": "121.135742,41.119269",
+            "prefix": "J",
+            "adcode": "210700",
+            "citycode": "0416",
+            "level": "city",
+            "districts": [],
+            "name": "锦州市"
+        },
+        {
+            "center": "122.235151,40.667432",
+            "prefix": "Y",
+            "adcode": "210800",
+            "citycode": "0417",
+            "level": "city",
+            "districts": [],
+            "name": "营口市"
+        },
+        {
+            "center": "121.648962,42.011796",
+            "prefix": "F",
+            "adcode": "210900",
+            "citycode": "0418",
+            "level": "city",
+            "districts": [],
+            "name": "阜新市"
+        },
+        {
+            "center": "123.18152,41.269402",
+            "prefix": "L",
+            "adcode": "211000",
+            "citycode": "0419",
+            "level": "city",
+            "districts": [],
+            "name": "辽阳市"
+        },
+        {
+            "center": "122.06957,41.124484",
+            "prefix": "P",
+            "adcode": "211100",
+            "citycode": "0427",
+            "level": "city",
+            "districts": [],
+            "name": "盘锦市"
+        },
+        {
+            "center": "123.844279,42.290585",
+            "prefix": "T",
+            "adcode": "211200",
+            "citycode": "0410",
+            "level": "city",
+            "districts": [],
+            "name": "铁岭市"
+        },
+        {
+            "center": "120.451176,41.576758",
+            "prefix": "C",
+            "adcode": "211300",
+            "citycode": "0421",
+            "level": "city",
+            "districts": [],
+            "name": "朝阳市"
+        },
+        {
+            "center": "120.856394,40.755572",
+            "prefix": "H",
+            "adcode": "211400",
+            "citycode": "0429",
+            "level": "city",
+            "districts": [],
+            "name": "葫芦岛市"
+        },
+        {
+            "center": "125.3245,43.886841",
+            "prefix": "Z",
+            "adcode": "220100",
+            "citycode": "0431",
+            "level": "city",
+            "districts": [],
+            "name": "长春市"
+        },
+        {
+            "center": "126.55302,43.843577",
+            "prefix": "J",
+            "adcode": "220200",
+            "citycode": "0432",
+            "level": "city",
+            "districts": [],
+            "name": "吉林市"
+        },
+        {
+            "center": "124.370785,43.170344",
+            "prefix": "S",
+            "adcode": "220300",
+            "citycode": "0434",
+            "level": "city",
+            "districts": [],
+            "name": "四平市"
+        },
+        {
+            "center": "125.145349,42.902692",
+            "prefix": "L",
+            "adcode": "220400",
+            "citycode": "0437",
+            "level": "city",
+            "districts": [],
+            "name": "辽源市"
+        },
+        {
+            "center": "125.936501,41.721177",
+            "prefix": "T",
+            "adcode": "220500",
+            "citycode": "0435",
+            "level": "city",
+            "districts": [],
+            "name": "通化市"
+        },
+        {
+            "center": "126.427839,41.942505",
+            "prefix": "B",
+            "adcode": "220600",
+            "citycode": "0439",
+            "level": "city",
+            "districts": [],
+            "name": "白山市"
+        },
+        {
+            "center": "124.823608,45.118243",
+            "prefix": "S",
+            "adcode": "220700",
+            "citycode": "0438",
+            "level": "city",
+            "districts": [],
+            "name": "松原市"
+        },
+        {
+            "center": "122.841114,45.619026",
+            "prefix": "B",
+            "adcode": "220800",
+            "citycode": "0436",
+            "level": "city",
+            "districts": [],
+            "name": "白城市"
+        },
+        {
+            "center": "129.513228,42.904823",
+            "prefix": "Y",
+            "adcode": "222400",
+            "citycode": "1433",
+            "level": "city",
+            "districts": [],
+            "name": "延边朝鲜族自治州"
+        },
+        {
+            "center": "126.642464,45.756967",
+            "prefix": "H",
+            "adcode": "230100",
+            "citycode": "0451",
+            "level": "city",
+            "districts": [],
+            "name": "哈尔滨市"
+        },
+        {
+            "center": "123.95792,47.342081",
+            "prefix": "Q",
+            "adcode": "230200",
+            "citycode": "0452",
+            "level": "city",
+            "districts": [],
+            "name": "齐齐哈尔市"
+        },
+        {
+            "center": "130.975966,45.300046",
+            "prefix": "J",
+            "adcode": "230300",
+            "citycode": "0467",
+            "level": "city",
+            "districts": [],
+            "name": "鸡西市"
+        },
+        {
+            "center": "130.277487,47.332085",
+            "prefix": "H",
+            "adcode": "230400",
+            "citycode": "0468",
+            "level": "city",
+            "districts": [],
+            "name": "鹤岗市"
+        },
+        {
+            "center": "131.157304,46.643442",
+            "prefix": "S",
+            "adcode": "230500",
+            "citycode": "0469",
+            "level": "city",
+            "districts": [],
+            "name": "双鸭山市"
+        },
+        {
+            "center": "125.11272,46.590734",
+            "prefix": "D",
+            "adcode": "230600",
+            "citycode": "0459",
+            "level": "city",
+            "districts": [],
+            "name": "大庆市"
+        },
+        {
+            "center": "128.899396,47.724775",
+            "prefix": "Y",
+            "adcode": "230700",
+            "citycode": "0458",
+            "level": "city",
+            "districts": [],
+            "name": "伊春市"
+        },
+        {
+            "center": "130.361634,46.809606",
+            "prefix": "J",
+            "adcode": "230800",
+            "citycode": "0454",
+            "level": "city",
+            "districts": [],
+            "name": "佳木斯市"
+        },
+        {
+            "center": "131.015584,45.771266",
+            "prefix": "Q",
+            "adcode": "230900",
+            "citycode": "0464",
+            "level": "city",
+            "districts": [],
+            "name": "七台河市"
+        },
+        {
+            "center": "129.618602,44.582962",
+            "prefix": "M",
+            "adcode": "231000",
+            "citycode": "0453",
+            "level": "city",
+            "districts": [],
+            "name": "牡丹江市"
+        },
+        {
+            "center": "127.499023,50.249585",
+            "prefix": "H",
+            "adcode": "231100",
+            "citycode": "0456",
+            "level": "city",
+            "districts": [],
+            "name": "黑河市"
+        },
+        {
+            "center": "126.99293,46.637393",
+            "prefix": "S",
+            "adcode": "231200",
+            "citycode": "0455",
+            "level": "city",
+            "districts": [],
+            "name": "绥化市"
+        },
+        {
+            "center": "124.711526,52.335262",
+            "prefix": "D",
+            "adcode": "232700",
+            "citycode": "0457",
+            "level": "city",
+            "districts": [],
+            "name": "大兴安岭地区"
+        },
+        {
+            "center": "121.472644,31.231706",
+            "prefix": "S",
+            "adcode": "310100",
+            "citycode": "021",
+            "level": "city",
+            "districts": [],
+            "name": "上海市市辖区"
+        },
+        {
+            "center": "118.767413,32.041544",
+            "prefix": "N",
+            "adcode": "320100",
+            "citycode": "025",
+            "level": "city",
+            "districts": [],
+            "name": "南京市"
+        },
+        {
+            "center": "120.301663,31.574729",
+            "prefix": "W",
+            "adcode": "320200",
+            "citycode": "0510",
+            "level": "city",
+            "districts": [],
+            "name": "无锡市"
+        },
+        {
+            "center": "117.184811,34.261792",
+            "prefix": "X",
+            "adcode": "320300",
+            "citycode": "0516",
+            "level": "city",
+            "districts": [],
+            "name": "徐州市"
+        },
+        {
+            "center": "119.946973,31.772752",
+            "prefix": "C",
+            "adcode": "320400",
+            "citycode": "0519",
+            "level": "city",
+            "districts": [],
+            "name": "常州市"
+        },
+        {
+            "center": "120.619585,31.299379",
+            "prefix": "S",
+            "adcode": "320500",
+            "citycode": "0512",
+            "level": "city",
+            "districts": [],
+            "name": "苏州市"
+        },
+        {
+            "center": "120.864608,32.016212",
+            "prefix": "N",
+            "adcode": "320600",
+            "citycode": "0513",
+            "level": "city",
+            "districts": [],
+            "name": "南通市"
+        },
+        {
+            "center": "119.178821,34.600018",
+            "prefix": "L",
+            "adcode": "320700",
+            "citycode": "0518",
+            "level": "city",
+            "districts": [],
+            "name": "连云港市"
+        },
+        {
+            "center": "119.021265,33.597506",
+            "prefix": "H",
+            "adcode": "320800",
+            "citycode": "0517",
+            "level": "city",
+            "districts": [],
+            "name": "淮安市"
+        },
+        {
+            "center": "120.139998,33.377631",
+            "prefix": "Y",
+            "adcode": "320900",
+            "citycode": "0515",
+            "level": "city",
+            "districts": [],
+            "name": "盐城市"
+        },
+        {
+            "center": "119.421003,32.393159",
+            "prefix": "Y",
+            "adcode": "321000",
+            "citycode": "0514",
+            "level": "city",
+            "districts": [],
+            "name": "扬州市"
+        },
+        {
+            "center": "119.452753,32.204402",
+            "prefix": "Z",
+            "adcode": "321100",
+            "citycode": "0511",
+            "level": "city",
+            "districts": [],
+            "name": "镇江市"
+        },
+        {
+            "center": "119.915176,32.484882",
+            "prefix": "T",
+            "adcode": "321200",
+            "citycode": "0523",
+            "level": "city",
+            "districts": [],
+            "name": "泰州市"
+        },
+        {
+            "center": "118.275162,33.963008",
+            "prefix": "S",
+            "adcode": "321300",
+            "citycode": "0527",
+            "level": "city",
+            "districts": [],
+            "name": "宿迁市"
+        },
+        {
+            "center": "120.153576,30.287459",
+            "prefix": "H",
+            "adcode": "330100",
+            "citycode": "0571",
+            "level": "city",
+            "districts": [],
+            "name": "杭州市"
+        },
+        {
+            "center": "121.549792,29.868388",
+            "prefix": "N",
+            "adcode": "330200",
+            "citycode": "0574",
+            "level": "city",
+            "districts": [],
+            "name": "宁波市"
+        },
+        {
+            "center": "120.672111,28.000575",
+            "prefix": "W",
+            "adcode": "330300",
+            "citycode": "0577",
+            "level": "city",
+            "districts": [],
+            "name": "温州市"
+        },
+        {
+            "center": "120.750865,30.762653",
+            "prefix": "J",
+            "adcode": "330400",
+            "citycode": "0573",
+            "level": "city",
+            "districts": [],
+            "name": "嘉兴市"
+        },
+        {
+            "center": "120.102398,30.867198",
+            "prefix": "H",
+            "adcode": "330500",
+            "citycode": "0572",
+            "level": "city",
+            "districts": [],
+            "name": "湖州市"
+        },
+        {
+            "center": "120.582112,29.997117",
+            "prefix": "S",
+            "adcode": "330600",
+            "citycode": "0575",
+            "level": "city",
+            "districts": [],
+            "name": "绍兴市"
+        },
+        {
+            "center": "119.649506,29.089524",
+            "prefix": "J",
+            "adcode": "330700",
+            "citycode": "0579",
+            "level": "city",
+            "districts": [],
+            "name": "金华市"
+        },
+        {
+            "center": "118.87263,28.941708",
+            "prefix": "Q",
+            "adcode": "330800",
+            "citycode": "0570",
+            "level": "city",
+            "districts": [],
+            "name": "衢州市"
+        },
+        {
+            "center": "122.106863,30.016028",
+            "prefix": "Z",
+            "adcode": "330900",
+            "citycode": "0580",
+            "level": "city",
+            "districts": [],
+            "name": "舟山市"
+        },
+        {
+            "center": "121.428599,28.661378",
+            "prefix": "T",
+            "adcode": "331000",
+            "citycode": "0576",
+            "level": "city",
+            "districts": [],
+            "name": "台州市"
+        },
+        {
+            "center": "119.921786,28.451993",
+            "prefix": "L",
+            "adcode": "331100",
+            "citycode": "0578",
+            "level": "city",
+            "districts": [],
+            "name": "丽水市"
+        },
+        {
+            "center": "117.283042,31.86119",
+            "prefix": "H",
+            "adcode": "340100",
+            "citycode": "0551",
+            "level": "city",
+            "districts": [],
+            "name": "合肥市"
+        },
+        {
+            "center": "118.376451,31.326319",
+            "prefix": "W",
+            "adcode": "340200",
+            "citycode": "0553",
+            "level": "city",
+            "districts": [],
+            "name": "芜湖市"
+        },
+        {
+            "center": "117.363228,32.939667",
+            "prefix": "B",
+            "adcode": "340300",
+            "citycode": "0552",
+            "level": "city",
+            "districts": [],
+            "name": "蚌埠市"
+        },
+        {
+            "center": "117.018329,32.647574",
+            "prefix": "H",
+            "adcode": "340400",
+            "citycode": "0554",
+            "level": "city",
+            "districts": [],
+            "name": "淮南市"
+        },
+        {
+            "center": "118.507906,31.689362",
+            "prefix": "M",
+            "adcode": "340500",
+            "citycode": "0555",
+            "level": "city",
+            "districts": [],
+            "name": "马鞍山市"
+        },
+        {
+            "center": "116.794664,33.971707",
+            "prefix": "H",
+            "adcode": "340600",
+            "citycode": "0561",
+            "level": "city",
+            "districts": [],
+            "name": "淮北市"
+        },
+        {
+            "center": "117.816576,30.929935",
+            "prefix": "T",
+            "adcode": "340700",
+            "citycode": "0562",
+            "level": "city",
+            "districts": [],
+            "name": "铜陵市"
+        },
+        {
+            "center": "117.043551,30.50883",
+            "prefix": "A",
+            "adcode": "340800",
+            "citycode": "0556",
+            "level": "city",
+            "districts": [],
+            "name": "安庆市"
+        },
+        {
+            "center": "118.317325,29.709239",
+            "prefix": "H",
+            "adcode": "341000",
+            "citycode": "0559",
+            "level": "city",
+            "districts": [],
+            "name": "黄山市"
+        },
+        {
+            "center": "118.316264,32.303627",
+            "prefix": "C",
+            "adcode": "341100",
+            "citycode": "0550",
+            "level": "city",
+            "districts": [],
+            "name": "滁州市"
+        },
+        {
+            "center": "115.819729,32.896969",
+            "prefix": "F",
+            "adcode": "341200",
+            "citycode": "1558",
+            "level": "city",
+            "districts": [],
+            "name": "阜阳市"
+        },
+        {
+            "center": "116.984084,33.633891",
+            "prefix": "S",
+            "adcode": "341300",
+            "citycode": "0557",
+            "level": "city",
+            "districts": [],
+            "name": "宿州市"
+        },
+        {
+            "center": "116.507676,31.752889",
+            "prefix": "L",
+            "adcode": "341500",
+            "citycode": "0564",
+            "level": "city",
+            "districts": [],
+            "name": "六安市"
+        },
+        {
+            "center": "115.782939,33.869338",
+            "prefix": "B",
+            "adcode": "341600",
+            "citycode": "0558",
+            "level": "city",
+            "districts": [],
+            "name": "亳州市"
+        },
+        {
+            "center": "117.489157,30.656037",
+            "prefix": "C",
+            "adcode": "341700",
+            "citycode": "0566",
+            "level": "city",
+            "districts": [],
+            "name": "池州市"
+        },
+        {
+            "center": "118.757995,30.945667",
+            "prefix": "X",
+            "adcode": "341800",
+            "citycode": "0563",
+            "level": "city",
+            "districts": [],
+            "name": "宣城市"
+        },
+        {
+            "center": "119.306239,26.075302",
+            "prefix": "F",
+            "adcode": "350100",
+            "citycode": "0591",
+            "level": "city",
+            "districts": [],
+            "name": "福州市"
+        },
+        {
+            "center": "118.11022,24.490474",
+            "prefix": "S",
+            "adcode": "350200",
+            "citycode": "0592",
+            "level": "city",
+            "districts": [],
+            "name": "厦门市"
+        },
+        {
+            "center": "119.007558,25.431011",
+            "prefix": "P",
+            "adcode": "350300",
+            "citycode": "0594",
+            "level": "city",
+            "districts": [],
+            "name": "莆田市"
+        },
+        {
+            "center": "117.635001,26.265444",
+            "prefix": "S",
+            "adcode": "350400",
+            "citycode": "0598",
+            "level": "city",
+            "districts": [],
+            "name": "三明市"
+        },
+        {
+            "center": "118.589421,24.908853",
+            "prefix": "Q",
+            "adcode": "350500",
+            "citycode": "0595",
+            "level": "city",
+            "districts": [],
+            "name": "泉州市"
+        },
+        {
+            "center": "117.661801,24.510897",
+            "prefix": "Z",
+            "adcode": "350600",
+            "citycode": "0596",
+            "level": "city",
+            "districts": [],
+            "name": "漳州市"
+        },
+        {
+            "center": "118.178459,26.635627",
+            "prefix": "N",
+            "adcode": "350700",
+            "citycode": "0599",
+            "level": "city",
+            "districts": [],
+            "name": "南平市"
+        },
+        {
+            "center": "117.02978,25.091603",
+            "prefix": "L",
+            "adcode": "350800",
+            "citycode": "0597",
+            "level": "city",
+            "districts": [],
+            "name": "龙岩市"
+        },
+        {
+            "center": "119.527082,26.65924",
+            "prefix": "N",
+            "adcode": "350900",
+            "citycode": "0593",
+            "level": "city",
+            "districts": [],
+            "name": "宁德市"
+        },
+        {
+            "center": "115.892151,28.676493",
+            "prefix": "N",
+            "adcode": "360100",
+            "citycode": "0791",
+            "level": "city",
+            "districts": [],
+            "name": "南昌市"
+        },
+        {
+            "center": "117.214664,29.29256",
+            "prefix": "J",
+            "adcode": "360200",
+            "citycode": "0798",
+            "level": "city",
+            "districts": [],
+            "name": "景德镇市"
+        },
+        {
+            "center": "113.852186,27.622946",
+            "prefix": "P",
+            "adcode": "360300",
+            "citycode": "0799",
+            "level": "city",
+            "districts": [],
+            "name": "萍乡市"
+        },
+        {
+            "center": "115.992811,29.712034",
+            "prefix": "J",
+            "adcode": "360400",
+            "citycode": "0792",
+            "level": "city",
+            "districts": [],
+            "name": "九江市"
+        },
+        {
+            "center": "114.930835,27.810834",
+            "prefix": "X",
+            "adcode": "360500",
+            "citycode": "0790",
+            "level": "city",
+            "districts": [],
+            "name": "新余市"
+        },
+        {
+            "center": "117.033838,28.238638",
+            "prefix": "Y",
+            "adcode": "360600",
+            "citycode": "0701",
+            "level": "city",
+            "districts": [],
+            "name": "鹰潭市"
+        },
+        {
+            "center": "114.940278,25.85097",
+            "prefix": "G",
+            "adcode": "360700",
+            "citycode": "0797",
+            "level": "city",
+            "districts": [],
+            "name": "赣州市"
+        },
+        {
+            "center": "114.986373,27.111699",
+            "prefix": "J",
+            "adcode": "360800",
+            "citycode": "0796",
+            "level": "city",
+            "districts": [],
+            "name": "吉安市"
+        },
+        {
+            "center": "114.391136,27.8043",
+            "prefix": "Y",
+            "adcode": "360900",
+            "citycode": "0795",
+            "level": "city",
+            "districts": [],
+            "name": "宜春市"
+        },
+        {
+            "center": "116.358351,27.98385",
+            "prefix": "F",
+            "adcode": "361000",
+            "citycode": "0794",
+            "level": "city",
+            "districts": [],
+            "name": "抚州市"
+        },
+        {
+            "center": "117.971185,28.44442",
+            "prefix": "S",
+            "adcode": "361100",
+            "citycode": "0793",
+            "level": "city",
+            "districts": [],
+            "name": "上饶市"
+        },
+        {
+            "center": "117.000923,36.675807",
+            "prefix": "J",
+            "adcode": "370100",
+            "citycode": "0531",
+            "level": "city",
+            "districts": [],
+            "name": "济南市"
+        },
+        {
+            "center": "120.355173,36.082982",
+            "prefix": "Q",
+            "adcode": "370200",
+            "citycode": "0532",
+            "level": "city",
+            "districts": [],
+            "name": "青岛市"
+        },
+        {
+            "center": "118.047648,36.814939",
+            "prefix": "Z",
+            "adcode": "370300",
+            "citycode": "0533",
+            "level": "city",
+            "districts": [],
+            "name": "淄博市"
+        },
+        {
+            "center": "117.557964,34.856424",
+            "prefix": "Z",
+            "adcode": "370400",
+            "citycode": "0632",
+            "level": "city",
+            "districts": [],
+            "name": "枣庄市"
+        },
+        {
+            "center": "118.66471,37.434564",
+            "prefix": "D",
+            "adcode": "370500",
+            "citycode": "0546",
+            "level": "city",
+            "districts": [],
+            "name": "东营市"
+        },
+        {
+            "center": "121.391382,37.539297",
+            "prefix": "Y",
+            "adcode": "370600",
+            "citycode": "0535",
+            "level": "city",
+            "districts": [],
+            "name": "烟台市"
+        },
+        {
+            "center": "119.107078,36.70925",
+            "prefix": "W",
+            "adcode": "370700",
+            "citycode": "0536",
+            "level": "city",
+            "districts": [],
+            "name": "潍坊市"
+        },
+        {
+            "center": "116.587245,35.415393",
+            "prefix": "J",
+            "adcode": "370800",
+            "citycode": "0537",
+            "level": "city",
+            "districts": [],
+            "name": "济宁市"
+        },
+        {
+            "center": "117.129063,36.194968",
+            "prefix": "T",
+            "adcode": "370900",
+            "citycode": "0538",
+            "level": "city",
+            "districts": [],
+            "name": "泰安市"
+        },
+        {
+            "center": "122.116394,37.509691",
+            "prefix": "W",
+            "adcode": "371000",
+            "citycode": "0631",
+            "level": "city",
+            "districts": [],
+            "name": "威海市"
+        },
+        {
+            "center": "119.461208,35.428588",
+            "prefix": "R",
+            "adcode": "371100",
+            "citycode": "0633",
+            "level": "city",
+            "districts": [],
+            "name": "日照市"
+        },
+        {
+            "center": "117.677736,36.214397",
+            "prefix": "L",
+            "adcode": "371200",
+            "citycode": "0634",
+            "level": "city",
+            "districts": [],
+            "name": "莱芜市"
+        },
+        {
+            "center": "118.326443,35.065282",
+            "prefix": "L",
+            "adcode": "371300",
+            "citycode": "0539",
+            "level": "city",
+            "districts": [],
+            "name": "临沂市"
+        },
+        {
+            "center": "116.307428,37.453968",
+            "prefix": "D",
+            "adcode": "371400",
+            "citycode": "0534",
+            "level": "city",
+            "districts": [],
+            "name": "德州市"
+        },
+        {
+            "center": "115.980367,36.456013",
+            "prefix": "L",
+            "adcode": "371500",
+            "citycode": "0635",
+            "level": "city",
+            "districts": [],
+            "name": "聊城市"
+        },
+        {
+            "center": "118.016974,37.383542",
+            "prefix": "B",
+            "adcode": "371600",
+            "citycode": "0543",
+            "level": "city",
+            "districts": [],
+            "name": "滨州市"
+        },
+        {
+            "center": "115.469381,35.246531",
+            "prefix": "H",
+            "adcode": "371700",
+            "citycode": "0530",
+            "level": "city",
+            "districts": [],
+            "name": "菏泽市"
+        },
+        {
+            "center": "113.665412,34.757975",
+            "prefix": "Z",
+            "adcode": "410100",
+            "citycode": "0371",
+            "level": "city",
+            "districts": [],
+            "name": "郑州市"
+        },
+        {
+            "center": "114.341447,34.797049",
+            "prefix": "K",
+            "adcode": "410200",
+            "citycode": "0378",
+            "level": "city",
+            "districts": [],
+            "name": "开封市"
+        },
+        {
+            "center": "112.434468,34.663041",
+            "prefix": "L",
+            "adcode": "410300",
+            "citycode": "0379",
+            "level": "city",
+            "districts": [],
+            "name": "洛阳市"
+        },
+        {
+            "center": "113.307718,33.735241",
+            "prefix": "P",
+            "adcode": "410400",
+            "citycode": "0375",
+            "level": "city",
+            "districts": [],
+            "name": "平顶山市"
+        },
+        {
+            "center": "114.352482,36.103442",
+            "prefix": "A",
+            "adcode": "410500",
+            "citycode": "0372",
+            "level": "city",
+            "districts": [],
+            "name": "安阳市"
+        },
+        {
+            "center": "114.295444,35.748236",
+            "prefix": "H",
+            "adcode": "410600",
+            "citycode": "0392",
+            "level": "city",
+            "districts": [],
+            "name": "鹤壁市"
+        },
+        {
+            "center": "113.883991,35.302616",
+            "prefix": "X",
+            "adcode": "410700",
+            "citycode": "0373",
+            "level": "city",
+            "districts": [],
+            "name": "新乡市"
+        },
+        {
+            "center": "113.238266,35.23904",
+            "prefix": "J",
+            "adcode": "410800",
+            "citycode": "0391",
+            "level": "city",
+            "districts": [],
+            "name": "焦作市"
+        },
+        {
+            "center": "115.041299,35.768234",
+            "prefix": "P",
+            "adcode": "410900",
+            "citycode": "0393",
+            "level": "city",
+            "districts": [],
+            "name": "濮阳市"
+        },
+        {
+            "center": "113.826063,34.022956",
+            "prefix": "X",
+            "adcode": "411000",
+            "citycode": "0374",
+            "level": "city",
+            "districts": [],
+            "name": "许昌市"
+        },
+        {
+            "center": "114.026405,33.575855",
+            "prefix": "L",
+            "adcode": "411100",
+            "citycode": "0395",
+            "level": "city",
+            "districts": [],
+            "name": "漯河市"
+        },
+        {
+            "center": "111.194099,34.777338",
+            "prefix": "S",
+            "adcode": "411200",
+            "citycode": "0398",
+            "level": "city",
+            "districts": [],
+            "name": "三门峡市"
+        },
+        {
+            "center": "112.540918,32.999082",
+            "prefix": "N",
+            "adcode": "411300",
+            "citycode": "0377",
+            "level": "city",
+            "districts": [],
+            "name": "南阳市"
+        },
+        {
+            "center": "115.650497,34.437054",
+            "prefix": "S",
+            "adcode": "411400",
+            "citycode": "0370",
+            "level": "city",
+            "districts": [],
+            "name": "商丘市"
+        },
+        {
+            "center": "114.075031,32.123274",
+            "prefix": "X",
+            "adcode": "411500",
+            "citycode": "0376",
+            "level": "city",
+            "districts": [],
+            "name": "信阳市"
+        },
+        {
+            "center": "114.649653,33.620357",
+            "prefix": "Z",
+            "adcode": "411600",
+            "citycode": "0394",
+            "level": "city",
+            "districts": [],
+            "name": "周口市"
+        },
+        {
+            "center": "114.024736,32.980169",
+            "prefix": "Z",
+            "adcode": "411700",
+            "citycode": "0396",
+            "level": "city",
+            "districts": [],
+            "name": "驻马店市"
+        },
+        {
+            "center": "112.590047,35.090378",
+            "prefix": "J",
+            "adcode": "419001",
+            "citycode": "1391",
+            "level": "city",
+            "districts": [],
+            "name": "济源市"
+        },
+        {
+            "center": "114.298572,30.584355",
+            "prefix": "W",
+            "adcode": "420100",
+            "citycode": "027",
+            "level": "city",
+            "districts": [],
+            "name": "武汉市"
+        },
+        {
+            "center": "115.077048,30.220074",
+            "prefix": "H",
+            "adcode": "420200",
+            "citycode": "0714",
+            "level": "city",
+            "districts": [],
+            "name": "黄石市"
+        },
+        {
+            "center": "110.787916,32.646907",
+            "prefix": "S",
+            "adcode": "420300",
+            "citycode": "0719",
+            "level": "city",
+            "districts": [],
+            "name": "十堰市"
+        },
+        {
+            "center": "111.290843,30.702636",
+            "prefix": "Y",
+            "adcode": "420500",
+            "citycode": "0717",
+            "level": "city",
+            "districts": [],
+            "name": "宜昌市"
+        },
+        {
+            "center": "112.144146,32.042426",
+            "prefix": "X",
+            "adcode": "420600",
+            "citycode": "0710",
+            "level": "city",
+            "districts": [],
+            "name": "襄阳市"
+        },
+        {
+            "center": "114.890593,30.396536",
+            "prefix": "E",
+            "adcode": "420700",
+            "citycode": "0711",
+            "level": "city",
+            "districts": [],
+            "name": "鄂州市"
+        },
+        {
+            "center": "112.204251,31.03542",
+            "prefix": "J",
+            "adcode": "420800",
+            "citycode": "0724",
+            "level": "city",
+            "districts": [],
+            "name": "荆门市"
+        },
+        {
+            "center": "113.926655,30.926423",
+            "prefix": "X",
+            "adcode": "420900",
+            "citycode": "0712",
+            "level": "city",
+            "districts": [],
+            "name": "孝感市"
+        },
+        {
+            "center": "112.23813,30.326857",
+            "prefix": "J",
+            "adcode": "421000",
+            "citycode": "0716",
+            "level": "city",
+            "districts": [],
+            "name": "荆州市"
+        },
+        {
+            "center": "114.879365,30.447711",
+            "prefix": "H",
+            "adcode": "421100",
+            "citycode": "0713",
+            "level": "city",
+            "districts": [],
+            "name": "黄冈市"
+        },
+        {
+            "center": "114.328963,29.832798",
+            "prefix": "X",
+            "adcode": "421200",
+            "citycode": "0715",
+            "level": "city",
+            "districts": [],
+            "name": "咸宁市"
+        },
+        {
+            "center": "113.37377,31.717497",
+            "prefix": "S",
+            "adcode": "421300",
+            "citycode": "0722",
+            "level": "city",
+            "districts": [],
+            "name": "随州市"
+        },
+        {
+            "center": "109.48699,30.283114",
+            "prefix": "E",
+            "adcode": "422800",
+            "citycode": "0718",
+            "level": "city",
+            "districts": [],
+            "name": "恩施土家族苗族自治州"
+        },
+        {
+            "center": "113.453974,30.364953",
+            "prefix": "X",
+            "adcode": "429004",
+            "citycode": "0728",
+            "level": "city",
+            "districts": [],
+            "name": "仙桃市"
+        },
+        {
+            "center": "112.896866,30.421215",
+            "prefix": "Q",
+            "adcode": "429005",
+            "citycode": "2728",
+            "level": "city",
+            "districts": [],
+            "name": "潜江市"
+        },
+        {
+            "center": "113.165862,30.653061",
+            "prefix": "T",
+            "adcode": "429006",
+            "citycode": "1728",
+            "level": "city",
+            "districts": [],
+            "name": "天门市"
+        },
+        {
+            "center": "110.671525,31.744449",
+            "prefix": "S",
+            "adcode": "429021",
+            "citycode": "1719",
+            "level": "city",
+            "districts": [],
+            "name": "神农架林区"
+        },
+        {
+            "center": "112.982279,28.19409",
+            "prefix": "Z",
+            "adcode": "430100",
+            "citycode": "0731",
+            "level": "city",
+            "districts": [],
+            "name": "长沙市"
+        },
+        {
+            "center": "113.151737,27.835806",
+            "prefix": "Z",
+            "adcode": "430200",
+            "citycode": "0733",
+            "level": "city",
+            "districts": [],
+            "name": "株洲市"
+        },
+        {
+            "center": "112.944052,27.82973",
+            "prefix": "X",
+            "adcode": "430300",
+            "citycode": "0732",
+            "level": "city",
+            "districts": [],
+            "name": "湘潭市"
+        },
+        {
+            "center": "112.607693,26.900358",
+            "prefix": "H",
+            "adcode": "430400",
+            "citycode": "0734",
+            "level": "city",
+            "districts": [],
+            "name": "衡阳市"
+        },
+        {
+            "center": "111.46923,27.237842",
+            "prefix": "S",
+            "adcode": "430500",
+            "citycode": "0739",
+            "level": "city",
+            "districts": [],
+            "name": "邵阳市"
+        },
+        {
+            "center": "113.132855,29.37029",
+            "prefix": "Y",
+            "adcode": "430600",
+            "citycode": "0730",
+            "level": "city",
+            "districts": [],
+            "name": "岳阳市"
+        },
+        {
+            "center": "111.691347,29.040225",
+            "prefix": "C",
+            "adcode": "430700",
+            "citycode": "0736",
+            "level": "city",
+            "districts": [],
+            "name": "常德市"
+        },
+        {
+            "center": "110.479921,29.127401",
+            "prefix": "Z",
+            "adcode": "430800",
+            "citycode": "0744",
+            "level": "city",
+            "districts": [],
+            "name": "张家界市"
+        },
+        {
+            "center": "112.355042,28.570066",
+            "prefix": "Y",
+            "adcode": "430900",
+            "citycode": "0737",
+            "level": "city",
+            "districts": [],
+            "name": "益阳市"
+        },
+        {
+            "center": "113.032067,25.793589",
+            "prefix": "C",
+            "adcode": "431000",
+            "citycode": "0735",
+            "level": "city",
+            "districts": [],
+            "name": "郴州市"
+        },
+        {
+            "center": "111.608019,26.434516",
+            "prefix": "Y",
+            "adcode": "431100",
+            "citycode": "0746",
+            "level": "city",
+            "districts": [],
+            "name": "永州市"
+        },
+        {
+            "center": "109.97824,27.550082",
+            "prefix": "H",
+            "adcode": "431200",
+            "citycode": "0745",
+            "level": "city",
+            "districts": [],
+            "name": "怀化市"
+        },
+        {
+            "center": "112.008497,27.728136",
+            "prefix": "L",
+            "adcode": "431300",
+            "citycode": "0738",
+            "level": "city",
+            "districts": [],
+            "name": "娄底市"
+        },
+        {
+            "center": "109.739735,28.314296",
+            "prefix": "X",
+            "adcode": "433100",
+            "citycode": "0743",
+            "level": "city",
+            "districts": [],
+            "name": "湘西土家族苗族自治州"
+        },
+        {
+            "center": "113.280637,23.125178",
+            "prefix": "G",
+            "adcode": "440100",
+            "citycode": "020",
+            "level": "city",
+            "districts": [],
+            "name": "广州市"
+        },
+        {
+            "center": "113.591544,24.801322",
+            "prefix": "S",
+            "adcode": "440200",
+            "citycode": "0751",
+            "level": "city",
+            "districts": [],
+            "name": "韶关市"
+        },
+        {
+            "center": "114.085947,22.547",
+            "prefix": "S",
+            "adcode": "440300",
+            "citycode": "0755",
+            "level": "city",
+            "districts": [],
+            "name": "深圳市"
+        },
+        {
+            "center": "113.553986,22.224979",
+            "prefix": "Z",
+            "adcode": "440400",
+            "citycode": "0756",
+            "level": "city",
+            "districts": [],
+            "name": "珠海市"
+        },
+        {
+            "center": "116.708463,23.37102",
+            "prefix": "S",
+            "adcode": "440500",
+            "citycode": "0754",
+            "level": "city",
+            "districts": [],
+            "name": "汕头市"
+        },
+        {
+            "center": "113.122717,23.028762",
+            "prefix": "F",
+            "adcode": "440600",
+            "citycode": "0757",
+            "level": "city",
+            "districts": [],
+            "name": "佛山市"
+        },
+        {
+            "center": "113.094942,22.590431",
+            "prefix": "J",
+            "adcode": "440700",
+            "citycode": "0750",
+            "level": "city",
+            "districts": [],
+            "name": "江门市"
+        },
+        {
+            "center": "110.364977,21.274898",
+            "prefix": "Z",
+            "adcode": "440800",
+            "citycode": "0759",
+            "level": "city",
+            "districts": [],
+            "name": "湛江市"
+        },
+        {
+            "center": "110.919229,21.659751",
+            "prefix": "M",
+            "adcode": "440900",
+            "citycode": "0668",
+            "level": "city",
+            "districts": [],
+            "name": "茂名市"
+        },
+        {
+            "center": "112.472529,23.051546",
+            "prefix": "Z",
+            "adcode": "441200",
+            "citycode": "0758",
+            "level": "city",
+            "districts": [],
+            "name": "肇庆市"
+        },
+        {
+            "center": "114.412599,23.079404",
+            "prefix": "H",
+            "adcode": "441300",
+            "citycode": "0752",
+            "level": "city",
+            "districts": [],
+            "name": "惠州市"
+        },
+        {
+            "center": "116.117582,24.299112",
+            "prefix": "M",
+            "adcode": "441400",
+            "citycode": "0753",
+            "level": "city",
+            "districts": [],
+            "name": "梅州市"
+        },
+        {
+            "center": "115.364238,22.774485",
+            "prefix": "S",
+            "adcode": "441500",
+            "citycode": "0660",
+            "level": "city",
+            "districts": [],
+            "name": "汕尾市"
+        },
+        {
+            "center": "114.697802,23.746266",
+            "prefix": "H",
+            "adcode": "441600",
+            "citycode": "0762",
+            "level": "city",
+            "districts": [],
+            "name": "河源市"
+        },
+        {
+            "center": "111.975107,21.859222",
+            "prefix": "Y",
+            "adcode": "441700",
+            "citycode": "0662",
+            "level": "city",
+            "districts": [],
+            "name": "阳江市"
+        },
+        {
+            "center": "113.051227,23.685022",
+            "prefix": "Q",
+            "adcode": "441800",
+            "citycode": "0763",
+            "level": "city",
+            "districts": [],
+            "name": "清远市"
+        },
+        {
+            "center": "113.746262,23.046237",
+            "prefix": "D",
+            "adcode": "441900",
+            "citycode": "0769",
+            "level": "city",
+            "districts": [],
+            "name": "东莞市"
+        },
+        {
+            "center": "113.382391,22.521113",
+            "prefix": "Z",
+            "adcode": "442000",
+            "citycode": "0760",
+            "level": "city",
+            "districts": [],
+            "name": "中山市"
+        },
+        {
+            "center": "116.632301,23.661701",
+            "prefix": "C",
+            "adcode": "445100",
+            "citycode": "0768",
+            "level": "city",
+            "districts": [],
+            "name": "潮州市"
+        },
+        {
+            "center": "116.355733,23.543778",
+            "prefix": "J",
+            "adcode": "445200",
+            "citycode": "0663",
+            "level": "city",
+            "districts": [],
+            "name": "揭阳市"
+        },
+        {
+            "center": "112.044439,22.929801",
+            "prefix": "Y",
+            "adcode": "445300",
+            "citycode": "0766",
+            "level": "city",
+            "districts": [],
+            "name": "云浮市"
+        },
+        {
+            "center": "108.320004,22.82402",
+            "prefix": "N",
+            "adcode": "450100",
+            "citycode": "0771",
+            "level": "city",
+            "districts": [],
+            "name": "南宁市"
+        },
+        {
+            "center": "109.411703,24.314617",
+            "prefix": "L",
+            "adcode": "450200",
+            "citycode": "0772",
+            "level": "city",
+            "districts": [],
+            "name": "柳州市"
+        },
+        {
+            "center": "110.299121,25.274215",
+            "prefix": "G",
+            "adcode": "450300",
+            "citycode": "0773",
+            "level": "city",
+            "districts": [],
+            "name": "桂林市"
+        },
+        {
+            "center": "111.297604,23.474803",
+            "prefix": "W",
+            "adcode": "450400",
+            "citycode": "0774",
+            "level": "city",
+            "districts": [],
+            "name": "梧州市"
+        },
+        {
+            "center": "109.119254,21.473343",
+            "prefix": "B",
+            "adcode": "450500",
+            "citycode": "0779",
+            "level": "city",
+            "districts": [],
+            "name": "北海市"
+        },
+        {
+            "center": "108.345478,21.614631",
+            "prefix": "F",
+            "adcode": "450600",
+            "citycode": "0770",
+            "level": "city",
+            "districts": [],
+            "name": "防城港市"
+        },
+        {
+            "center": "108.624175,21.967127",
+            "prefix": "Q",
+            "adcode": "450700",
+            "citycode": "0777",
+            "level": "city",
+            "districts": [],
+            "name": "钦州市"
+        },
+        {
+            "center": "109.602146,23.0936",
+            "prefix": "G",
+            "adcode": "450800",
+            "citycode": "1755",
+            "level": "city",
+            "districts": [],
+            "name": "贵港市"
+        },
+        {
+            "center": "110.154393,22.63136",
+            "prefix": "Y",
+            "adcode": "450900",
+            "citycode": "0775",
+            "level": "city",
+            "districts": [],
+            "name": "玉林市"
+        },
+        {
+            "center": "106.616285,23.897742",
+            "prefix": "B",
+            "adcode": "451000",
+            "citycode": "0776",
+            "level": "city",
+            "districts": [],
+            "name": "百色市"
+        },
+        {
+            "center": "111.552056,24.414141",
+            "prefix": "H",
+            "adcode": "451100",
+            "citycode": "1774",
+            "level": "city",
+            "districts": [],
+            "name": "贺州市"
+        },
+        {
+            "center": "108.062105,24.695899",
+            "prefix": "H",
+            "adcode": "451200",
+            "citycode": "0778",
+            "level": "city",
+            "districts": [],
+            "name": "河池市"
+        },
+        {
+            "center": "109.229772,23.733766",
+            "prefix": "L",
+            "adcode": "451300",
+            "citycode": "1772",
+            "level": "city",
+            "districts": [],
+            "name": "来宾市"
+        },
+        {
+            "center": "107.353926,22.404108",
+            "prefix": "C",
+            "adcode": "451400",
+            "citycode": "1771",
+            "level": "city",
+            "districts": [],
+            "name": "崇左市"
+        },
+        {
+            "center": "110.33119,20.031971",
+            "prefix": "H",
+            "adcode": "460100",
+            "citycode": "0898",
+            "level": "city",
+            "districts": [],
+            "name": "海口市"
+        },
+        {
+            "center": "109.508268,18.247872",
+            "prefix": "S",
+            "adcode": "460200",
+            "citycode": "0899",
+            "level": "city",
+            "districts": [],
+            "name": "三亚市"
+        },
+        {
+            "center": "112.34882,16.831039",
+            "prefix": "S",
+            "adcode": "460300",
+            "citycode": "2898",
+            "level": "city",
+            "districts": [],
+            "name": "三沙市"
+        },
+        {
+            "center": "109.576782,19.517486",
+            "prefix": "D",
+            "adcode": "460400",
+            "citycode": "0805",
+            "level": "city",
+            "districts": [],
+            "name": "儋州市"
+        },
+        {
+            "center": "109.516662,18.776921",
+            "prefix": "W",
+            "adcode": "469001",
+            "citycode": "1897",
+            "level": "city",
+            "districts": [],
+            "name": "五指山市"
+        },
+        {
+            "center": "110.466785,19.246011",
+            "prefix": "Q",
+            "adcode": "469002",
+            "citycode": "1894",
+            "level": "city",
+            "districts": [],
+            "name": "琼海市"
+        },
+        {
+            "center": "110.753975,19.612986",
+            "prefix": "W",
+            "adcode": "469005",
+            "citycode": "1893",
+            "level": "city",
+            "districts": [],
+            "name": "文昌市"
+        },
+        {
+            "center": "110.388793,18.796216",
+            "prefix": "W",
+            "adcode": "469006",
+            "citycode": "1898",
+            "level": "city",
+            "districts": [],
+            "name": "万宁市"
+        },
+        {
+            "center": "108.653789,19.10198",
+            "prefix": "D",
+            "adcode": "469007",
+            "citycode": "0807",
+            "level": "city",
+            "districts": [],
+            "name": "东方市"
+        },
+        {
+            "center": "110.349235,19.684966",
+            "prefix": "D",
+            "adcode": "469021",
+            "citycode": "0806",
+            "level": "city",
+            "districts": [],
+            "name": "定安县"
+        },
+        {
+            "center": "110.102773,19.362916",
+            "prefix": "T",
+            "adcode": "469022",
+            "citycode": "1892",
+            "level": "city",
+            "districts": [],
+            "name": "屯昌县"
+        },
+        {
+            "center": "110.007147,19.737095",
+            "prefix": "C",
+            "adcode": "469023",
+            "citycode": "0804",
+            "level": "city",
+            "districts": [],
+            "name": "澄迈县"
+        },
+        {
+            "center": "109.687697,19.908293",
+            "prefix": "L",
+            "adcode": "469024",
+            "citycode": "1896",
+            "level": "city",
+            "districts": [],
+            "name": "临高县"
+        },
+        {
+            "center": "109.452606,19.224584",
+            "prefix": "B",
+            "adcode": "469025",
+            "citycode": "0802",
+            "level": "city",
+            "districts": [],
+            "name": "白沙黎族自治县"
+        },
+        {
+            "center": "109.053351,19.260968",
+            "prefix": "C",
+            "adcode": "469026",
+            "citycode": "0803",
+            "level": "city",
+            "districts": [],
+            "name": "昌江黎族自治县"
+        },
+        {
+            "center": "109.175444,18.74758",
+            "prefix": "L",
+            "adcode": "469027",
+            "citycode": "2802",
+            "level": "city",
+            "districts": [],
+            "name": "乐东黎族自治县"
+        },
+        {
+            "center": "110.037218,18.505006",
+            "prefix": "L",
+            "adcode": "469028",
+            "citycode": "0809",
+            "level": "city",
+            "districts": [],
+            "name": "陵水黎族自治县"
+        },
+        {
+            "center": "109.70245,18.636371",
+            "prefix": "B",
+            "adcode": "469029",
+            "citycode": "0801",
+            "level": "city",
+            "districts": [],
+            "name": "保亭黎族苗族自治县"
+        },
+        {
+            "center": "109.839996,19.03557",
+            "prefix": "Q",
+            "adcode": "469030",
+            "citycode": "1899",
+            "level": "city",
+            "districts": [],
+            "name": "琼中黎族苗族自治县"
+        },
+        {
+            "center": "106.504962,29.533155",
+            "prefix": "Z",
+            "adcode": "500100",
+            "citycode": "023",
+            "level": "city",
+            "districts": [],
+            "name": "重庆市市辖区"
+        },
+        {
+            "center": "108.170255,29.291965",
+            "prefix": "Z",
+            "adcode": "500200",
+            "citycode": "023",
+            "level": "city",
+            "districts": [],
+            "name": "重庆市郊县"
+        },
+        {
+            "center": "104.065735,30.659462",
+            "prefix": "C",
+            "adcode": "510100",
+            "citycode": "028",
+            "level": "city",
+            "districts": [],
+            "name": "成都市"
+        },
+        {
+            "center": "104.773447,29.352765",
+            "prefix": "Z",
+            "adcode": "510300",
+            "citycode": "0813",
+            "level": "city",
+            "districts": [],
+            "name": "自贡市"
+        },
+        {
+            "center": "101.716007,26.580446",
+            "prefix": "P",
+            "adcode": "510400",
+            "citycode": "0812",
+            "level": "city",
+            "districts": [],
+            "name": "攀枝花市"
+        },
+        {
+            "center": "105.443348,28.889138",
+            "prefix": "L",
+            "adcode": "510500",
+            "citycode": "0830",
+            "level": "city",
+            "districts": [],
+            "name": "泸州市"
+        },
+        {
+            "center": "104.398651,31.127991",
+            "prefix": "D",
+            "adcode": "510600",
+            "citycode": "0838",
+            "level": "city",
+            "districts": [],
+            "name": "德阳市"
+        },
+        {
+            "center": "104.741722,31.46402",
+            "prefix": "M",
+            "adcode": "510700",
+            "citycode": "0816",
+            "level": "city",
+            "districts": [],
+            "name": "绵阳市"
+        },
+        {
+            "center": "105.829757,32.433668",
+            "prefix": "G",
+            "adcode": "510800",
+            "citycode": "0839",
+            "level": "city",
+            "districts": [],
+            "name": "广元市"
+        },
+        {
+            "center": "105.571331,30.513311",
+            "prefix": "S",
+            "adcode": "510900",
+            "citycode": "0825",
+            "level": "city",
+            "districts": [],
+            "name": "遂宁市"
+        },
+        {
+            "center": "105.066138,29.58708",
+            "prefix": "N",
+            "adcode": "511000",
+            "citycode": "1832",
+            "level": "city",
+            "districts": [],
+            "name": "内江市"
+        },
+        {
+            "center": "103.761263,29.582024",
+            "prefix": "L",
+            "adcode": "511100",
+            "citycode": "0833",
+            "level": "city",
+            "districts": [],
+            "name": "乐山市"
+        },
+        {
+            "center": "106.082974,30.795281",
+            "prefix": "N",
+            "adcode": "511300",
+            "citycode": "0817",
+            "level": "city",
+            "districts": [],
+            "name": "南充市"
+        },
+        {
+            "center": "103.831788,30.048318",
+            "prefix": "M",
+            "adcode": "511400",
+            "citycode": "1833",
+            "level": "city",
+            "districts": [],
+            "name": "眉山市"
+        },
+        {
+            "center": "104.630825,28.760189",
+            "prefix": "Y",
+            "adcode": "511500",
+            "citycode": "0831",
+            "level": "city",
+            "districts": [],
+            "name": "宜宾市"
+        },
+        {
+            "center": "106.633369,30.456398",
+            "prefix": "G",
+            "adcode": "511600",
+            "citycode": "0826",
+            "level": "city",
+            "districts": [],
+            "name": "广安市"
+        },
+        {
+            "center": "107.502262,31.209484",
+            "prefix": "D",
+            "adcode": "511700",
+            "citycode": "0818",
+            "level": "city",
+            "districts": [],
+            "name": "达州市"
+        },
+        {
+            "center": "103.001033,29.987722",
+            "prefix": "Y",
+            "adcode": "511800",
+            "citycode": "0835",
+            "level": "city",
+            "districts": [],
+            "name": "雅安市"
+        },
+        {
+            "center": "106.753669,31.858809",
+            "prefix": "B",
+            "adcode": "511900",
+            "citycode": "0827",
+            "level": "city",
+            "districts": [],
+            "name": "巴中市"
+        },
+        {
+            "center": "104.641917,30.122211",
+            "prefix": "Z",
+            "adcode": "512000",
+            "citycode": "0832",
+            "level": "city",
+            "districts": [],
+            "name": "资阳市"
+        },
+        {
+            "center": "102.221374,31.899792",
+            "prefix": "A",
+            "adcode": "513200",
+            "citycode": "0837",
+            "level": "city",
+            "districts": [],
+            "name": "阿坝藏族羌族自治州"
+        },
+        {
+            "center": "101.963815,30.050663",
+            "prefix": "G",
+            "adcode": "513300",
+            "citycode": "0836",
+            "level": "city",
+            "districts": [],
+            "name": "甘孜藏族自治州"
+        },
+        {
+            "center": "102.258746,27.886762",
+            "prefix": "L",
+            "adcode": "513400",
+            "citycode": "0834",
+            "level": "city",
+            "districts": [],
+            "name": "凉山彝族自治州"
+        },
+        {
+            "center": "106.713478,26.578343",
+            "prefix": "G",
+            "adcode": "520100",
+            "citycode": "0851",
+            "level": "city",
+            "districts": [],
+            "name": "贵阳市"
+        },
+        {
+            "center": "104.846743,26.584643",
+            "prefix": "L",
+            "adcode": "520200",
+            "citycode": "0858",
+            "level": "city",
+            "districts": [],
+            "name": "六盘水市"
+        },
+        {
+            "center": "106.937265,27.706626",
+            "prefix": "Z",
+            "adcode": "520300",
+            "citycode": "0852",
+            "level": "city",
+            "districts": [],
+            "name": "遵义市"
+        },
+        {
+            "center": "105.932188,26.245544",
+            "prefix": "A",
+            "adcode": "520400",
+            "citycode": "0853",
+            "level": "city",
+            "districts": [],
+            "name": "安顺市"
+        },
+        {
+            "center": "105.28501,27.301693",
+            "prefix": "B",
+            "adcode": "520500",
+            "citycode": "0857",
+            "level": "city",
+            "districts": [],
+            "name": "毕节市"
+        },
+        {
+            "center": "109.191555,27.718346",
+            "prefix": "T",
+            "adcode": "520600",
+            "citycode": "0856",
+            "level": "city",
+            "districts": [],
+            "name": "铜仁市"
+        },
+        {
+            "center": "104.897971,25.08812",
+            "prefix": "Q",
+            "adcode": "522300",
+            "citycode": "0859",
+            "level": "city",
+            "districts": [],
+            "name": "黔西南布依族苗族自治州"
+        },
+        {
+            "center": "107.977488,26.583352",
+            "prefix": "Q",
+            "adcode": "522600",
+            "citycode": "0855",
+            "level": "city",
+            "districts": [],
+            "name": "黔东南苗族侗族自治州"
+        },
+        {
+            "center": "107.517156,26.258219",
+            "prefix": "Q",
+            "adcode": "522700",
+            "citycode": "0854",
+            "level": "city",
+            "districts": [],
+            "name": "黔南布依族苗族自治州"
+        },
+        {
+            "center": "102.712251,25.040609",
+            "prefix": "K",
+            "adcode": "530100",
+            "citycode": "0871",
+            "level": "city",
+            "districts": [],
+            "name": "昆明市"
+        },
+        {
+            "center": "103.797851,25.501557",
+            "prefix": "Q",
+            "adcode": "530300",
+            "citycode": "0874",
+            "level": "city",
+            "districts": [],
+            "name": "曲靖市"
+        },
+        {
+            "center": "102.543907,24.350461",
+            "prefix": "Y",
+            "adcode": "530400",
+            "citycode": "0877",
+            "level": "city",
+            "districts": [],
+            "name": "玉溪市"
+        },
+        {
+            "center": "99.167133,25.111802",
+            "prefix": "B",
+            "adcode": "530500",
+            "citycode": "0875",
+            "level": "city",
+            "districts": [],
+            "name": "保山市"
+        },
+        {
+            "center": "103.717216,27.336999",
+            "prefix": "Z",
+            "adcode": "530600",
+            "citycode": "0870",
+            "level": "city",
+            "districts": [],
+            "name": "昭通市"
+        },
+        {
+            "center": "100.233026,26.872108",
+            "prefix": "L",
+            "adcode": "530700",
+            "citycode": "0888",
+            "level": "city",
+            "districts": [],
+            "name": "丽江市"
+        },
+        {
+            "center": "100.972344,22.777321",
+            "prefix": "P",
+            "adcode": "530800",
+            "citycode": "0879",
+            "level": "city",
+            "districts": [],
+            "name": "普洱市"
+        },
+        {
+            "center": "100.08697,23.886567",
+            "prefix": "L",
+            "adcode": "530900",
+            "citycode": "0883",
+            "level": "city",
+            "districts": [],
+            "name": "临沧市"
+        },
+        {
+            "center": "101.546046,25.041988",
+            "prefix": "C",
+            "adcode": "532300",
+            "citycode": "0878",
+            "level": "city",
+            "districts": [],
+            "name": "楚雄彝族自治州"
+        },
+        {
+            "center": "103.384182,23.366775",
+            "prefix": "H",
+            "adcode": "532500",
+            "citycode": "0873",
+            "level": "city",
+            "districts": [],
+            "name": "红河哈尼族彝族自治州"
+        },
+        {
+            "center": "104.24401,23.36951",
+            "prefix": "W",
+            "adcode": "532600",
+            "citycode": "0876",
+            "level": "city",
+            "districts": [],
+            "name": "文山壮族苗族自治州"
+        },
+        {
+            "center": "100.797941,22.001724",
+            "prefix": "X",
+            "adcode": "532800",
+            "citycode": "0691",
+            "level": "city",
+            "districts": [],
+            "name": "西双版纳傣族自治州"
+        },
+        {
+            "center": "100.225668,25.589449",
+            "prefix": "D",
+            "adcode": "532900",
+            "citycode": "0872",
+            "level": "city",
+            "districts": [],
+            "name": "大理白族自治州"
+        },
+        {
+            "center": "98.578363,24.436694",
+            "prefix": "D",
+            "adcode": "533100",
+            "citycode": "0692",
+            "level": "city",
+            "districts": [],
+            "name": "德宏傣族景颇族自治州"
+        },
+        {
+            "center": "98.854304,25.850949",
+            "prefix": "N",
+            "adcode": "533300",
+            "citycode": "0886",
+            "level": "city",
+            "districts": [],
+            "name": "怒江傈僳族自治州"
+        },
+        {
+            "center": "99.706463,27.826853",
+            "prefix": "D",
+            "adcode": "533400",
+            "citycode": "0887",
+            "level": "city",
+            "districts": [],
+            "name": "迪庆藏族自治州"
+        },
+        {
+            "center": "91.132212,29.660361",
+            "prefix": "L",
+            "adcode": "540100",
+            "citycode": "0891",
+            "level": "city",
+            "districts": [],
+            "name": "拉萨市"
+        },
+        {
+            "center": "88.885148,29.267519",
+            "prefix": "R",
+            "adcode": "540200",
+            "citycode": "0892",
+            "level": "city",
+            "districts": [],
+            "name": "日喀则市"
+        },
+        {
+            "center": "97.178452,31.136875",
+            "prefix": "C",
+            "adcode": "540300",
+            "citycode": "0895",
+            "level": "city",
+            "districts": [],
+            "name": "昌都市"
+        },
+        {
+            "center": "91.766529,29.236023",
+            "prefix": "S",
+            "adcode": "540500",
+            "citycode": "0893",
+            "level": "city",
+            "districts": [],
+            "name": "山南市"
+        },
+        {
+            "center": "92.060214,31.476004",
+            "prefix": "N",
+            "adcode": "542400",
+            "citycode": "0896",
+            "level": "city",
+            "districts": [],
+            "name": "那曲地区"
+        },
+        {
+            "center": "80.105498,32.503187",
+            "prefix": "A",
+            "adcode": "542500",
+            "citycode": "0897",
+            "level": "city",
+            "districts": [],
+            "name": "阿里地区"
+        },
+        {
+            "center": "94.362348,29.654693",
+            "prefix": "L",
+            "adcode": "540400",
+            "citycode": "0894",
+            "level": "city",
+            "districts": [],
+            "name": "林芝市"
+        },
+        {
+            "center": "108.948024,34.263161",
+            "prefix": "X",
+            "adcode": "610100",
+            "citycode": "029",
+            "level": "city",
+            "districts": [],
+            "name": "西安市"
+        },
+        {
+            "center": "108.979608,34.916582",
+            "prefix": "T",
+            "adcode": "610200",
+            "citycode": "0919",
+            "level": "city",
+            "districts": [],
+            "name": "铜川市"
+        },
+        {
+            "center": "107.14487,34.369315",
+            "prefix": "B",
+            "adcode": "610300",
+            "citycode": "0917",
+            "level": "city",
+            "districts": [],
+            "name": "宝鸡市"
+        },
+        {
+            "center": "108.705117,34.333439",
+            "prefix": "X",
+            "adcode": "610400",
+            "citycode": "0910",
+            "level": "city",
+            "districts": [],
+            "name": "咸阳市"
+        },
+        {
+            "center": "109.502882,34.499381",
+            "prefix": "W",
+            "adcode": "610500",
+            "citycode": "0913",
+            "level": "city",
+            "districts": [],
+            "name": "渭南市"
+        },
+        {
+            "center": "109.49081,36.596537",
+            "prefix": "Y",
+            "adcode": "610600",
+            "citycode": "0911",
+            "level": "city",
+            "districts": [],
+            "name": "延安市"
+        },
+        {
+            "center": "107.028621,33.077668",
+            "prefix": "H",
+            "adcode": "610700",
+            "citycode": "0916",
+            "level": "city",
+            "districts": [],
+            "name": "汉中市"
+        },
+        {
+            "center": "109.741193,38.290162",
+            "prefix": "Y",
+            "adcode": "610800",
+            "citycode": "0912",
+            "level": "city",
+            "districts": [],
+            "name": "榆林市"
+        },
+        {
+            "center": "109.029273,32.6903",
+            "prefix": "A",
+            "adcode": "610900",
+            "citycode": "0915",
+            "level": "city",
+            "districts": [],
+            "name": "安康市"
+        },
+        {
+            "center": "109.939776,33.868319",
+            "prefix": "S",
+            "adcode": "611000",
+            "citycode": "0914",
+            "level": "city",
+            "districts": [],
+            "name": "商洛市"
+        },
+        {
+            "center": "103.823557,36.058039",
+            "prefix": "L",
+            "adcode": "620100",
+            "citycode": "0931",
+            "level": "city",
+            "districts": [],
+            "name": "兰州市"
+        },
+        {
+            "center": "98.277304,39.786529",
+            "prefix": "J",
+            "adcode": "620200",
+            "citycode": "1937",
+            "level": "city",
+            "districts": [],
+            "name": "嘉峪关市"
+        },
+        {
+            "center": "102.187888,38.514238",
+            "prefix": "J",
+            "adcode": "620300",
+            "citycode": "0935",
+            "level": "city",
+            "districts": [],
+            "name": "金昌市"
+        },
+        {
+            "center": "104.173606,36.54568",
+            "prefix": "B",
+            "adcode": "620400",
+            "citycode": "0943",
+            "level": "city",
+            "districts": [],
+            "name": "白银市"
+        },
+        {
+            "center": "105.724998,34.578529",
+            "prefix": "T",
+            "adcode": "620500",
+            "citycode": "0938",
+            "level": "city",
+            "districts": [],
+            "name": "天水市"
+        },
+        {
+            "center": "102.634697,37.929996",
+            "prefix": "W",
+            "adcode": "620600",
+            "citycode": "1935",
+            "level": "city",
+            "districts": [],
+            "name": "武威市"
+        },
+        {
+            "center": "100.455472,38.932897",
+            "prefix": "Z",
+            "adcode": "620700",
+            "citycode": "0936",
+            "level": "city",
+            "districts": [],
+            "name": "张掖市"
+        },
+        {
+            "center": "106.684691,35.54279",
+            "prefix": "P",
+            "adcode": "620800",
+            "citycode": "0933",
+            "level": "city",
+            "districts": [],
+            "name": "平凉市"
+        },
+        {
+            "center": "98.510795,39.744023",
+            "prefix": "J",
+            "adcode": "620900",
+            "citycode": "0937",
+            "level": "city",
+            "districts": [],
+            "name": "酒泉市"
+        },
+        {
+            "center": "107.638372,35.734218",
+            "prefix": "Q",
+            "adcode": "621000",
+            "citycode": "0934",
+            "level": "city",
+            "districts": [],
+            "name": "庆阳市"
+        },
+        {
+            "center": "104.626294,35.579578",
+            "prefix": "D",
+            "adcode": "621100",
+            "citycode": "0932",
+            "level": "city",
+            "districts": [],
+            "name": "定西市"
+        },
+        {
+            "center": "104.929379,33.388598",
+            "prefix": "L",
+            "adcode": "621200",
+            "citycode": "2935",
+            "level": "city",
+            "districts": [],
+            "name": "陇南市"
+        },
+        {
+            "center": "103.212006,35.599446",
+            "prefix": "L",
+            "adcode": "622900",
+            "citycode": "0930",
+            "level": "city",
+            "districts": [],
+            "name": "临夏回族自治州"
+        },
+        {
+            "center": "102.911008,34.986354",
+            "prefix": "G",
+            "adcode": "623000",
+            "citycode": "0941",
+            "level": "city",
+            "districts": [],
+            "name": "甘南藏族自治州"
+        },
+        {
+            "center": "101.778916,36.623178",
+            "prefix": "X",
+            "adcode": "630100",
+            "citycode": "0971",
+            "level": "city",
+            "districts": [],
+            "name": "西宁市"
+        },
+        {
+            "center": "102.10327,36.502916",
+            "prefix": "H",
+            "adcode": "630200",
+            "citycode": "0972",
+            "level": "city",
+            "districts": [],
+            "name": "海东市"
+        },
+        {
+            "center": "100.901059,36.959435",
+            "prefix": "H",
+            "adcode": "632200",
+            "citycode": "0970",
+            "level": "city",
+            "districts": [],
+            "name": "海北藏族自治州"
+        },
+        {
+            "center": "102.019988,35.517744",
+            "prefix": "H",
+            "adcode": "632300",
+            "citycode": "0973",
+            "level": "city",
+            "districts": [],
+            "name": "黄南藏族自治州"
+        },
+        {
+            "center": "100.619542,36.280353",
+            "prefix": "H",
+            "adcode": "632500",
+            "citycode": "0974",
+            "level": "city",
+            "districts": [],
+            "name": "海南藏族自治州"
+        },
+        {
+            "center": "100.242143,34.4736",
+            "prefix": "G",
+            "adcode": "632600",
+            "citycode": "0975",
+            "level": "city",
+            "districts": [],
+            "name": "果洛藏族自治州"
+        },
+        {
+            "center": "97.008522,33.004049",
+            "prefix": "Y",
+            "adcode": "632700",
+            "citycode": "0976",
+            "level": "city",
+            "districts": [],
+            "name": "玉树藏族自治州"
+        },
+        {
+            "center": "97.370785,37.374663",
+            "prefix": "H",
+            "adcode": "632800",
+            "citycode": "0977",
+            "level": "city",
+            "districts": [],
+            "name": "海西蒙古族藏族自治州"
+        },
+        {
+            "center": "106.278179,38.46637",
+            "prefix": "Y",
+            "adcode": "640100",
+            "citycode": "0951",
+            "level": "city",
+            "districts": [],
+            "name": "银川市"
+        },
+        {
+            "center": "106.376173,39.01333",
+            "prefix": "S",
+            "adcode": "640200",
+            "citycode": "0952",
+            "level": "city",
+            "districts": [],
+            "name": "石嘴山市"
+        },
+        {
+            "center": "106.199409,37.986165",
+            "prefix": "W",
+            "adcode": "640300",
+            "citycode": "0953",
+            "level": "city",
+            "districts": [],
+            "name": "吴忠市"
+        },
+        {
+            "center": "106.285241,36.004561",
+            "prefix": "G",
+            "adcode": "640400",
+            "citycode": "0954",
+            "level": "city",
+            "districts": [],
+            "name": "固原市"
+        },
+        {
+            "center": "105.189568,37.514951",
+            "prefix": "Z",
+            "adcode": "640500",
+            "citycode": "1953",
+            "level": "city",
+            "districts": [],
+            "name": "中卫市"
+        },
+        {
+            "center": "87.617733,43.792818",
+            "prefix": "W",
+            "adcode": "650100",
+            "citycode": "0991",
+            "level": "city",
+            "districts": [],
+            "name": "乌鲁木齐市"
+        },
+        {
+            "center": "84.873946,45.595886",
+            "prefix": "K",
+            "adcode": "650200",
+            "citycode": "0990",
+            "level": "city",
+            "districts": [],
+            "name": "克拉玛依市"
+        },
+        {
+            "center": "89.184078,42.947613",
+            "prefix": "T",
+            "adcode": "650400",
+            "citycode": "0995",
+            "level": "city",
+            "districts": [],
+            "name": "吐鲁番市"
+        },
+        {
+            "center": "93.51316,42.833248",
+            "prefix": "H",
+            "adcode": "650500",
+            "citycode": "0902",
+            "level": "city",
+            "districts": [],
+            "name": "哈密市"
+        },
+        {
+            "center": "87.304012,44.014577",
+            "prefix": "C",
+            "adcode": "652300",
+            "citycode": "0994",
+            "level": "city",
+            "districts": [],
+            "name": "昌吉回族自治州"
+        },
+        {
+            "center": "82.074778,44.903258",
+            "prefix": "B",
+            "adcode": "652700",
+            "citycode": "0909",
+            "level": "city",
+            "districts": [],
+            "name": "博尔塔拉蒙古自治州"
+        },
+        {
+            "center": "86.150969,41.768552",
+            "prefix": "B",
+            "adcode": "652800",
+            "citycode": "0996",
+            "level": "city",
+            "districts": [],
+            "name": "巴音郭楞蒙古自治州"
+        },
+        {
+            "center": "80.265068,41.170712",
+            "prefix": "A",
+            "adcode": "652900",
+            "citycode": "0997",
+            "level": "city",
+            "districts": [],
+            "name": "阿克苏地区"
+        },
+        {
+            "center": "76.172825,39.713431",
+            "prefix": "K",
+            "adcode": "653000",
+            "citycode": "0908",
+            "level": "city",
+            "districts": [],
+            "name": "克孜勒苏柯尔克孜自治州"
+        },
+        {
+            "center": "75.989138,39.467664",
+            "prefix": "K",
+            "adcode": "653100",
+            "citycode": "0998",
+            "level": "city",
+            "districts": [],
+            "name": "喀什地区"
+        },
+        {
+            "center": "79.92533,37.110687",
+            "prefix": "H",
+            "adcode": "653200",
+            "citycode": "0903",
+            "level": "city",
+            "districts": [],
+            "name": "和田地区"
+        },
+        {
+            "center": "81.317946,43.92186",
+            "prefix": "Y",
+            "adcode": "654000",
+            "citycode": "0999",
+            "level": "city",
+            "districts": [],
+            "name": "伊犁哈萨克自治州"
+        },
+        {
+            "center": "82.985732,46.746301",
+            "prefix": "T",
+            "adcode": "654200",
+            "citycode": "0901",
+            "level": "city",
+            "districts": [],
+            "name": "塔城地区"
+        },
+        {
+            "center": "88.13963,47.848393",
+            "prefix": "A",
+            "adcode": "654300",
+            "citycode": "0906",
+            "level": "city",
+            "districts": [],
+            "name": "阿勒泰地区"
+        },
+        {
+            "center": "86.041075,44.305886",
+            "prefix": "S",
+            "adcode": "659001",
+            "citycode": "0993",
+            "level": "city",
+            "districts": [],
+            "name": "石河子市"
+        },
+        {
+            "center": "81.285884,40.541914",
+            "prefix": "A",
+            "adcode": "659002",
+            "citycode": "1997",
+            "level": "city",
+            "districts": [],
+            "name": "阿拉尔市"
+        },
+        {
+            "center": "79.077978,39.867316",
+            "prefix": "T",
+            "adcode": "659003",
+            "citycode": "1998",
+            "level": "city",
+            "districts": [],
+            "name": "图木舒克市"
+        },
+        {
+            "center": "87.526884,44.167401",
+            "prefix": "W",
+            "adcode": "659004",
+            "citycode": "1994",
+            "level": "city",
+            "districts": [],
+            "name": "五家渠市"
+        },
+        {
+            "center": "87.824932,47.353177",
+            "prefix": "B",
+            "adcode": "659005",
+            "citycode": "1906",
+            "level": "city",
+            "districts": [],
+            "name": "北屯市"
+        },
+        {
+            "center": "85.501218,41.827251",
+            "prefix": "T",
+            "adcode": "659006",
+            "citycode": "1996",
+            "level": "city",
+            "districts": [],
+            "name": "铁门关市"
+        },
+        {
+            "center": "82.353656,44.840524",
+            "prefix": "S",
+            "adcode": "659007",
+            "citycode": "1909",
+            "level": "city",
+            "districts": [],
+            "name": "双河市"
+        },
+        {
+            "center": "80.63579,43.6832",
+            "prefix": "K",
+            "adcode": "659008",
+            "citycode": "1999",
+            "level": "city",
+            "districts": [],
+            "name": "可克达拉市"
+        },
+        {
+            "center": "79.287372,37.207994",
+            "prefix": "K",
+            "adcode": "659009",
+            "citycode": "1903",
+            "level": "city",
+            "districts": [],
+            "name": "昆玉市"
+        }
+    ]
+}

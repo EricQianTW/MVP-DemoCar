@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bigkoo.convenientbanner.ConvenientBanner
+        android:id="@+id/convenientBanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:canLoop="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_theme" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/goods_share"
+            style="@style/gray03.16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:drawableTop="@drawable/shareprogrew_x3"
+            android:gravity="center_horizontal"
+            android:text="分享" />
+
+        <TextView
+            android:id="@+id/goods_name"
+            style="@style/gray03.18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@id/goods_share"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="@null" />
+
+        <com.clown.wyxc.components.TitleTextview
+            android:id="@+id/goods_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/goods_name"
+            android:layout_below="@id/goods_name"
+            custom:tt_text_back="￥0.00"
+            custom:tt_text_backcolor="@color/red_ff"
+            custom:tt_text_backsize="@dimen/fontsize_20"
+            custom:tt_text_front="单价 : "
+            custom:tt_text_frontcolor="@color/red_ff"
+            custom:tt_text_frontsize="@dimen/fontsize_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/goods_price"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.clown.wyxc.components.TitleTextview
+                android:id="@+id/goods_fright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                custom:tt_text_backcolor="@color/gray_66"
+                custom:tt_text_backsize="@dimen/fontsize_14"
+                custom:tt_text_front="运费 : "
+                custom:tt_text_frontcolor="@color/gray_66"
+                custom:tt_text_frontsize="@dimen/fontsize_14" />
+
+            <com.clown.wyxc.components.TitleTextview
+                android:id="@+id/goods_salesvolume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                custom:tt_text_backcolor="@color/gray_66"
+                android:gravity="center"
+                custom:tt_text_backsize="@dimen/fontsize_14"
+                custom:tt_text_front="销量："
+                custom:tt_text_frontcolor="@color/gray_66"
+                custom:tt_text_frontsize="@dimen/fontsize_14" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/gray66.14"
+                android:gravity="right"
+                android:text="城市"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

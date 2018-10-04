@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    style="@style/match_wrap"
+    android:background="@color/gray_theme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.clown.wyxc.components.ImageViewEquals
+            android:id="@+id/goods_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/goods_default" />
+
+        <TextView
+            android:id="@+id/goods_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/goods_image"
+            android:textColor="@color/gray_66"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="14sp"
+            android:text="商品名称" />
+
+        <com.clown.wyxc.components.TitleTextview
+            android:id="@+id/goods_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/goods_name"
+            android:layout_below="@id/goods_name"
+            android:layout_toRightOf="@id/goods_image"
+            custom:tt_text_backcolor="@color/gray_a5"
+            custom:tt_text_backsize="18sp"
+            custom:tt_text_front="价格："
+            custom:tt_text_frontcolor="@color/gray_a5"
+            custom:tt_text_frontsize="18sp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

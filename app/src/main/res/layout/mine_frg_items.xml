@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.clown.wyxc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_theme"
+        android:orientation="vertical">
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/wodenianka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/setting"
+            custom:hi_imageshow="true"
+            custom:hi_text="我的年卡" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/gouwuche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/setting"
+            custom:hi_imageshow="true"
+            custom:hi_text="购物车" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/dizhiguanli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/setting"
+            custom:hi_imageshow="true"
+            custom:hi_text="地址管理" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/shezhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/setting"
+            custom:hi_imageshow="true"
+            custom:hi_text="设置" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/wodepingjai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/evaluate"
+            custom:hi_imageshow="true"
+            custom:hi_text="我的评价" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/wodeshoucang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/collect"
+            custom:hi_imageshow="true"
+            custom:hi_text="我的收藏" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/yijianfankui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/advise"
+            custom:hi_imageshow="true"
+            custom:hi_text="意见反馈" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/guanyuwomen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/about_us"
+            custom:hi_imageshow="true"
+            custom:hi_text="关于我们" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/kefudianhua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/customer_phone"
+            custom:hi_imageshow="true"
+            custom:hi_text="客服电话" />
+
+        <com.clown.wyxc.components.HorizontalItem
+            android:id="@+id/fuwutiaokuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:paddingStart="10dp"
+            android:visibility="gone"
+            custom:hi_imageid="@drawable/service_terms"
+            custom:hi_imageshow="true"
+            custom:hi_text="服务条款" />
+
+        <!--<com.clown.wyxc.components.HorizontalItem-->
+            <!--android:id="@+id/logout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="1dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:paddingStart="10dp"-->
+            <!--custom:hi_imageid="@drawable/log_out"-->
+            <!--custom:hi_imageshow="true"-->
+            <!--android:visibility="gone"-->
+            <!--custom:hi_text="退出登录" />-->
+
+        <RelativeLayout
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/user_logout" />
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_image"
+                android:layout_centerVertical="true"
+                style="@style/gray03.18"
+                android:text="退出登录"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/arraw_right_small"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

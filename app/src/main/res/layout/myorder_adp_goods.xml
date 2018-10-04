@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stepper="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/goods_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@id/cb_choice"
+        android:src="@drawable/goods_default" />
+
+    <TextView
+        android:id="@+id/goods_price"
+        style="@style/red.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/goods_image"
+        android:layout_alignBottom="@id/goods_image"
+        android:text="￥0.00" />
+
+    <TextView
+        android:id="@+id/goods_name"
+        style="@style/gray55.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/goods_image"
+        android:text="@null" />
+
+    <TextView
+        android:id="@+id/goods_attr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goods_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/goods_image"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/goods_oldprice"
+        style="@style/gray99.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/goods_price"
+        android:layout_marginTop="5dp"
+        android:text="￥0.00"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/goods_count"
+        style="@style/gray99.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/goods_image"
+        android:layout_marginTop="5dp"
+        android:text="0" />
+
+
+</RelativeLayout>

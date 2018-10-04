@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/rl_main"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/goods_default" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_photo"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="保养名保养名保养名保养名保养名保养名保养名保养名保养名保" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        style="@style/gray03.18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="5dp"
+        android:text="￥ 1.00" />
+
+    <TextView
+        android:id="@+id/tv_count"
+        style="@style/gray33.16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/tv_price"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text="X 1"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/tv_price"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.clown.wyxc.components.AmountView
+            android:id="@+id/av_num"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:btnTextSize="12sp"
+            app:btnWidth="28dp"
+            app:tvWidth="40dp" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_tv_red_80"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/tv_modify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_tv_red_80"
+            android:gravity="center"
+            android:text="更改"
+            android:textColor="@color/red" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

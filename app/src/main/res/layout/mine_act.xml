@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/cl_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/sf_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/ns_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp">
+
+                    <FrameLayout
+                        android:id="@+id/headerFrame"
+                        style="@style/match_wrap"
+                        android:visibility="visible" />
+
+                    <FrameLayout
+                        android:id="@+id/iconFrame"
+                        style="@style/match_wrap"
+                        android:layout_marginTop="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/listFrame"
+                        style="@style/match_wrap"
+                        android:layout_marginTop="10dp"
+                        android:visibility="visible" />
+
+                    <FrameLayout
+                        android:id="@+id/itemsFrame"
+                        style="@style/match_wrap" />
+
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

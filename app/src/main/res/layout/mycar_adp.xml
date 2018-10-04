@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_carlogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/goods_default" />
+
+    <TextView
+        android:id="@+id/tv_carplate"
+        style="@style/gray03.14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/iv_carlogo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="苏F-888888" />
+
+    <TextView
+        android:id="@+id/tv_carname"
+        style="@style/gray03.18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/iv_carlogo"
+        android:layout_toLeftOf="@id/tv_carplate"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:lines="2"
+        android:layout_toRightOf="@id/iv_carlogo"
+        android:text="福特 福克斯-三厢" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/iv_carlogo"
+        android:background="@color/gray_theme" />
+
+    <TextView
+        android:id="@+id/tv_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/iv_carlogo"
+        android:layout_below="@id/line"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="设为默认" />
+
+    <TextView
+        android:id="@+id/tv_modify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_carplate"
+        android:layout_below="@id/line"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="编辑" />
+
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/tv_modify"
+        android:text="删除" />
+
+</RelativeLayout>

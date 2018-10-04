@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stepper="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <CheckBox
+        android:id="@+id/cb_choice"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/rediobt_round"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <ImageView
+        android:id="@+id/goods_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/cb_choice"
+        android:src="@drawable/goods_default" />
+
+    <RelativeLayout
+        android:id="@+id/goods_status1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/goods_image"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/goods_name"
+            style="@style/black22.18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginLeft="10dp"
+            android:text="@null" />
+
+        <TextView
+            android:id="@+id/goods_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/goods_name"
+            android:maxLines="3"
+            android:layout_below="@id/goods_name" />
+
+        <TextView
+            android:id="@+id/goods_price"
+            style="@style/red_f7.16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/goods_name"
+            android:layout_alignParentBottom="true"
+            android:text="￥0.00" />
+
+        <TextView
+            android:id="@+id/goods_oldprice"
+            style="@style/gray_a5.14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/goods_price"
+            android:layout_alignParentBottom="true"
+            android:text="￥0.00" />
+
+        <TextView
+            android:id="@+id/goods_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            style="@style/black22.18"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/goods_status2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/goods_image"
+        android:visibility="gone">
+
+        <com.bigkoo.snappingstepper.SnappingStepper
+            android:id="@+id/stepper"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            stepper:min="1"
+            stepper:stepper_background="@color/gray_9f"
+            stepper:stepper_buttonBackground="@color/gray_9f"
+            stepper:stepper_contentBackground="@color/white"
+            stepper:stepper_leftButtonBackground="@color/gray_ce"
+            stepper:stepper_rightButtonBackground="@color/gray_ce" />
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="0dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/icon_delete" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

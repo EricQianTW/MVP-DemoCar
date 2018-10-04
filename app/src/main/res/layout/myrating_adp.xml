@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <com.clown.wyxc.components.CircleImageView
+            android:id="@+id/userheader"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bg_head_default" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/userheader"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/userheader"
+            android:text="用户名" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/username"
+            android:layout_below="@id/username"
+            android:text="content"
+            />
+
+        <TextView
+            android:id="@+id/assessdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/username"
+            android:layout_below="@id/content"
+            android:text="date"
+            android:layout_marginRight="10dp" />
+
+        <GridView
+            android:id="@+id/contentpic"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/assessdate"
+            android:layout_alignLeft="@id/username"
+            android:numColumns="3" />
+    </RelativeLayout>
+
+    <!--<GridView-->
+        <!--android:id="@+id/contentpic"-->
+        <!--android:scrollbars="none"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/rl_user"-->
+        <!--android:numColumns="3" />-->
+
+</RelativeLayout>
